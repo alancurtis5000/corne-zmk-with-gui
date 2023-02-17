@@ -1,0 +1,72 @@
+.layer-panel {
+  display: flex;
+  justify-content: center;
+  .layer-actions {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 20% 60% 20%;
+    min-height: 48px;
+    padding: 8px;
+    .label,
+    .move-buttons,
+    .delete-button {
+      display: flex;
+      align-items: center;
+    }
+    .delete-button {
+      width: 100%;
+      justify-content: end;
+      button {
+        &:hover {
+          svg {
+            fill: rgb(207, 34, 34);
+          }
+        }
+      }
+    }
+    .edit-button {
+      &:hover {
+        svg {
+          fill: rgb(32, 91, 238);
+        }
+      }
+    }
+    .move-buttons {
+      .move-button {
+        &:hover {
+          svg {
+            fill: rgb(32, 91, 238);
+          }
+        }
+      }
+    }
+  }
+
+  .full-keyboard {
+    display: flex;
+    > div {
+      padding: 10px;
+      margin: 4px;
+      border: 2px solid darkgray;
+      border-radius: 10px;
+    }
+    .grid-left {
+      display: grid;
+      background-color: rgb(202, 222, 228);
+      grid-template-columns: repeat(5, 90px);
+      grid-template-rows: repeat(4, 90px);
+      gap: 6px;
+      button:nth-last-child(3):nth-child(5n + 1) {
+        grid-column-start: 3;
+      }
+    }
+    .grid-right {
+      display: grid;
+      background-color: rgb(246, 210, 210);
+      grid-template-columns: repeat(5, 90px);
+      grid-template-rows: repeat(4, 90px);
+      gap: 6px;
+    }
+  }
+}

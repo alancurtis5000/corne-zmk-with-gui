@@ -1,0 +1,18 @@
+.modifier-list {
+  display: flex;
+  .left-mods,
+  .right-mods {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    button {
+      margin: 4px;
+    }
+  }
+  .left-mods {
+    background-color: rgb(202, 222, 228);
+  }
+  .right-mods {
+    background-color: rgb(246, 210, 210);
+  }
+}

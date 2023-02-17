@@ -1,0 +1,16 @@
+.key-dialog-page-2-edit-action {
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .current-value {
+      background-color: lightgrey;
+      height: 100px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+    }
+  }
+}
