@@ -8,6 +8,7 @@ import { useLocation } from "react-router-dom";
 import { Base64 } from "js-base64";
 import { Octokit } from "@octokit/rest";
 import { generateBlob } from "../download-button/blob-content";
+import JSZip from "jszip";
 
 export const BottomActions = () => {
   const {
@@ -60,8 +61,64 @@ export const BottomActions = () => {
         return result?.status || 500;
       }
 
-      commitArticle(content);
+      await commitArticle(content);
     } catch (error) {}
+  };
+
+  const getArtifact = async () => {
+    // alan todo : how to download artifact
+    // still need to work this out
+
+    // log into github
+    const octokit = new Octokit({
+      auth: process.env.REACT_APP_GITHUB_TOKEN,
+    });
+
+    const resp = await octokit.request(
+      `GET /repos/{owner}/{repo}/actions/artifacts`,
+      {
+        owner: process.env.REACT_APP_GITHUB_OWNER,
+        repo: process.env.REACT_APP_GITHUB_REPO,
+      }
+    );
+    const artifactId = resp.data.artifacts[0].id;
+    console.log({ resp, artifactId });
+    await octokit.request(
+      "GET /repos/{owner}/{repo}/actions/artifacts/{artifact_id}/{archive_format}",
+      {
+        owner: process.env.REACT_APP_GITHUB_OWNER,
+        repo: process.env.REACT_APP_GITHUB_REPO,
+        artifact_id: artifactId,
+        archive_format: "zip",
+      }
+    );
+
+    const downloadedArtifact = await octokit.actions.downloadArtifact({
+      owner: process.env.REACT_APP_GITHUB_OWNER,
+      repo: process.env.REACT_APP_GITHUB_REPO,
+      artifact_id: artifactId,
+      archive_format: "zip",
+    });
+
+    if (downloadedArtifact.data instanceof ArrayBuffer) {
+      console.log({ downloadedArtifact });
+      await JSZip.loadAsync(downloadedArtifact.data);
+    } else {
+      // error
+    }
+
+    // const { url } = octokit.actions.downloadArtifact.endpoint({
+    //   owner: process.env.REACT_APP_GITHUB_OWNER,
+    //   repo: process.env.REACT_APP_GITHUB_REPO,
+    //   artifact_id: artifactId,
+    //   archive_format: "zip",
+    // });
+    // octokit.rest.actions.downloadArtifact({
+    //   owner: process.env.REACT_APP_GITHUB_OWNER,
+    //   repo: process.env.REACT_APP_GITHUB_REPO,
+    //   artifact_id: artifactId,
+    //   archive_format: "archive_format",
+    // });
   };
 
   return (
@@ -74,6 +131,9 @@ export const BottomActions = () => {
           <DownloadButton />
           <Button onClick={commitToGitHub} startIcon={<SaveIcon />}>
             Update and Commit to Github
+          </Button>
+          <Button onClick={getArtifact} startIcon={<SaveIcon />}>
+            artifact
           </Button>
         </>
       )}

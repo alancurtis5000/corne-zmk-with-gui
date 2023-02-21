@@ -18,6 +18,7 @@
     "file-saver": "^2.0.5",
     "js-base64": "^3.7.5",
     "json-server": "^0.17.1",
+    "jszip": "^3.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.7.0",
