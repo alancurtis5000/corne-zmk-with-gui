@@ -11,7 +11,7 @@ export const DownloadButton = () => {
   } = useContext(LayoutContext);
 
   const handleDownload = () => {
-    var blob = new Blob(generateBlob(layers), {
+    const blob = new Blob(generateBlob(layers), {
       type: "text/plain;charset=utf-8",
     });
     saveAs(blob, "corne.keymap");
