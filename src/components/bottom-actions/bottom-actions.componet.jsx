@@ -14,8 +14,10 @@ const repo = process.env.REACT_APP_GITHUB_REPO;
 
 export const BottomActions = () => {
   const {
+    setLayout,
     saveLayout,
     layout: { layers },
+    layout,
   } = useContext(LayoutContext);
   const location = useLocation();
   const [progressMessage, setProgressMessage] = useState("");
@@ -85,6 +87,8 @@ export const BottomActions = () => {
 
     // this is the last artifact id, may want to store artifact Id with layout
     const artifactId = resp.data.artifacts[0].id;
+    setLayout({ ...layout, lastArtifactId: artifactId });
+    handleSave();
 
     let { url } = await octokit.request(
       "GET /repos/{owner}/{repo}/actions/artifacts/{artifact_id}/{archive_format}",
@@ -180,6 +184,43 @@ export const BottomActions = () => {
     });
   };
 
+  const downloadLastArtifact = async () => {
+    setProgressMessage("dowloading Artifact");
+    setProgress(90);
+    const resp = await octokit.request(
+      `GET /repos/{owner}/{repo}/actions/artifacts`,
+      {
+        owner: process.env.REACT_APP_GITHUB_OWNER,
+        repo: process.env.REACT_APP_GITHUB_REPO,
+      }
+    );
+
+    const artifactId = layout.lastArtifactId;
+
+    let { url } = await octokit.request(
+      "GET /repos/{owner}/{repo}/actions/artifacts/{artifact_id}/{archive_format}",
+      {
+        owner: process.env.REACT_APP_GITHUB_OWNER,
+        repo: process.env.REACT_APP_GITHUB_REPO,
+        artifact_id: artifactId,
+        archive_format: "zip",
+      }
+    );
+
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", `FileName.zip`);
+
+    // Append to html link element page
+    document.body.appendChild(link);
+
+    // Start download
+    link.click();
+
+    // Clean up and remove the link
+    link.parentNode.removeChild(link);
+  };
+
   return (
     <div className="bottom-actions">
       <div className="actions">
@@ -187,6 +228,9 @@ export const BottomActions = () => {
           <>
             <Button onClick={handleSave} startIcon={<SaveIcon />}>
               Save
+            </Button>
+            <Button onClick={downloadLastArtifact} startIcon={<DownloadIcon />}>
+              Download Last Built
             </Button>
             <Button onClick={superAction} startIcon={<DownloadIcon />}>
               Create Firmware
