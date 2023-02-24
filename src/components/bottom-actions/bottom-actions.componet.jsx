@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import SaveIcon from "@mui/icons-material/Save";
-import Button from "@mui/material/Button";
+import { LinearProgress, Button, Typography } from "@mui/material";
 import "./bottom-actions.styles.scss";
-import { DownloadButton } from "../download-button/download-button";
+import DownloadIcon from "@mui/icons-material/Download";
 import { LayoutContext } from "../../providers/layout/layout.provider";
 import { useLocation } from "react-router-dom";
 import { Base64 } from "js-base64";
@@ -12,28 +12,28 @@ import { generateBlob } from "../download-button/blob-content";
 const owner = process.env.REACT_APP_GITHUB_OWNER;
 const repo = process.env.REACT_APP_GITHUB_REPO;
 
-// todo alan : clean up this file
-/* look into reuse */
-
 export const BottomActions = () => {
   const {
     saveLayout,
     layout: { layers },
   } = useContext(LayoutContext);
   const location = useLocation();
-
+  const [progressMessage, setProgressMessage] = useState("");
+  const [progress, setProgress] = useState(0);
   const handleSave = () => {
     saveLayout();
   };
 
-  const commitToGitHub2 = async () => {
-    console.log("commitToGitHub2");
-    try {
-      // log into github
-      const octokit = new Octokit({
-        auth: process.env.REACT_APP_GITHUB_TOKEN,
-      });
+  // log into github
+  const octokit = new Octokit({
+    auth: process.env.REACT_APP_GITHUB_TOKEN,
+  });
 
+  const commitToGitHub = async () => {
+    setProgressMessage("commiting to github");
+    setProgress(5);
+    console.log("commitToGitHub");
+    try {
       // get SHA of file you want to write over
       async function getSHA(path) {
         const result = await octokit.repos.getContent({
@@ -67,15 +67,14 @@ export const BottomActions = () => {
       const config = Base64.encode(generateBlob(layers));
 
       await commitConfig(config);
+      setProgressMessage("commit success");
+      setProgress(10);
     } catch (error) {}
   };
 
   const downloadArtifact = async () => {
-    // log into github
-    const octokit = new Octokit({
-      auth: process.env.REACT_APP_GITHUB_TOKEN,
-    });
-
+    setProgressMessage("dowloading Artifact");
+    setProgress(90);
     const resp = await octokit.request(
       `GET /repos/{owner}/{repo}/actions/artifacts`,
       {
@@ -109,6 +108,12 @@ export const BottomActions = () => {
 
     // Clean up and remove the link
     link.parentNode.removeChild(link);
+    setProgressMessage("Complete");
+    setProgress(100);
+    setTimeout(() => {
+      setProgressMessage("");
+      setProgress(0);
+    }, 1000);
   };
 
   const superAction = async () => {
@@ -118,15 +123,18 @@ export const BottomActions = () => {
       const initalRun = await getRuns();
       const initalRunCount = initalRun?.data?.total_count;
       console.log({ initalRun });
-      await commitToGitHub2();
+      await commitToGitHub();
       console.log("commited");
 
       let maxTries = 20;
+      let currentTry = 0;
       const intervalID = window.setInterval(myCallback, 20000);
 
       async function myCallback() {
         console.log(`attempt ${maxTries}`);
+
         if (maxTries >= 1) {
+          currentTry = currentTry + 1;
           try {
             const currentRun = await getRuns();
             const currentRunCount = currentRun?.data?.total_count;
@@ -134,6 +142,8 @@ export const BottomActions = () => {
 
             if (currentRunCount > initalRunCount) {
               console.log("new run added");
+              setProgressMessage(`waiting on run to finish (${currentTry})`);
+              setProgress(currentTry * 8);
               if (
                 currentRun?.data?.workflow_runs[0]?.conclusion === "success"
               ) {
@@ -147,6 +157,8 @@ export const BottomActions = () => {
               }
             } else {
               console.log("waiting on new run");
+              setProgressMessage("checking runs");
+              setProgress(currentTry * 8);
               maxTries = maxTries - 1;
             }
           } catch (error) {
@@ -161,11 +173,6 @@ export const BottomActions = () => {
   };
 
   const getRuns = async () => {
-    // log into github
-    const octokit = new Octokit({
-      auth: process.env.REACT_APP_GITHUB_TOKEN,
-    });
-
     return octokit.actions.listWorkflowRunsForRepo({
       owner: owner,
       repo: repo,
@@ -175,17 +182,23 @@ export const BottomActions = () => {
 
   return (
     <div className="bottom-actions">
-      {location.pathname !== "/" && (
-        <>
-          <Button onClick={handleSave} startIcon={<SaveIcon />}>
-            Save
-          </Button>
-          <DownloadButton />
-
-          <Button onClick={superAction} startIcon={<SaveIcon />}>
-            super
-          </Button>
-        </>
+      <div className="actions">
+        {location.pathname !== "/" && (
+          <>
+            <Button onClick={handleSave} startIcon={<SaveIcon />}>
+              Save
+            </Button>
+            <Button onClick={superAction} startIcon={<DownloadIcon />}>
+              Create Firmware
+            </Button>
+          </>
+        )}
+      </div>
+      {progress > 0 && (
+        <div className="progress">
+          <LinearProgress variant="determinate" value={progress} />
+          <Typography>{progressMessage}</Typography>
+        </div>
       )}
     </div>
   );

@@ -1,7 +1,20 @@
 .bottom-actions {
   display: flex;
+  width: 100%;
+  flex-direction: column;
   background-color: rgb(192, 192, 192);
   justify-content: center;
   align-items: center;
   height: 80px;
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .progress {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    width: 100%;
+  }
 }
