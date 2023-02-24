@@ -185,16 +185,6 @@ export const BottomActions = () => {
   };
 
   const downloadLastArtifact = async () => {
-    setProgressMessage("dowloading Artifact");
-    setProgress(90);
-    const resp = await octokit.request(
-      `GET /repos/{owner}/{repo}/actions/artifacts`,
-      {
-        owner: process.env.REACT_APP_GITHUB_OWNER,
-        repo: process.env.REACT_APP_GITHUB_REPO,
-      }
-    );
-
     const artifactId = layout.lastArtifactId;
 
     let { url } = await octokit.request(
