@@ -37,10 +37,10 @@
     PC_layer {
             label = "PC";
             bindings = <
-              &none            &kp RC(Y)        &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp T            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
+              &none            &kp Q            &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp T            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
               &none            &kp A            &kp S            &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo PC_Nav       &none 
               &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
-                                                &none            &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
+                                                &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
             >;
           };
             
@@ -50,7 +50,7 @@ Mac_layer {
               &none            &kp Q            &hm LSHIFT W     &hm LALT E       &hm LGUI R       &kp T            &kp Y            &hm RGUI U       &hm RALT I       &hm RSHIFT O     &kp P            &none 
               &none            &kp A            &kp S            &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo Mac_Nav      &none 
               &none            &lt Mac_util Z   &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
-                                                &none            &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
+                                                &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
             >;
           };
             
@@ -100,7 +100,7 @@ Pc_util_layer {
               &none            &none            &none            &kp LC(Z)        &kp LC(Y)        &kp LC(SLASH)    &none            &none            &none            &none            &none            &none 
               &none            &none            &kp LC(S)        &kp BACKSPACE    &kp DEL          &kp TAB          &none            &none            &none            &none            &none            &none 
               &none            &none            &kp LC(X)        &kp LC(C)        &kp LC(V)        &kp LC(A)        &none            &none            &none            &none            &none            &none 
-                                                &none            &none            &kp LSHIFT       &none            &none            &none           
+                                                &none            &kp LALT         &kp LSHIFT       &none            &none            &none           
             >;
           };
             
