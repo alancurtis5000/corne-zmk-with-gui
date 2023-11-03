@@ -16,6 +16,19 @@ flash them onto device.
  4. Now run `yarn start`
  5. App is now running.
 
+## How it works.
+This project is built with React.
+It uses a fake database that is basically a json file `.\database.json`
+Anytime you make changes it updates this file.
+**If you want your changes saved you have to commit the changes made to that file** 
+Once you make changes and hit save it updated the Database.
+Now you can create the firmware for the keyboard.
+Selecting `Create Firmware`
+- this takes the Keymap of the App and commits to repo `config/corne.keymap` 
+- When it completes it creates a Action in Github repo 
+- once the action is complete it downloads the artifact
+- you can now put that on the keyboard here is how you do that.
+
 
 # /////////// Markup examples below ////////////
 
