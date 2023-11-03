@@ -18,6 +18,7 @@
 #define Mac_util 7 
 #define PC_Nav 8 
 #define Mac_Nav 9 
+#define Gaming 10 
     
 / {
     behaviors {
@@ -131,6 +132,16 @@ Mac_Nav_layer {
               &none            &none            &kp LEFT         &kp DOWN         &kp RIGHT        &none            &none            &kp LGUI         &kp LALT         &kp LSHIFT       &none            &none 
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
+            >;
+          };
+            
+Gaming_layer {
+            label = "Gaming";
+            bindings = <
+              &none            &kp J            &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &none 
+              &none            &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &none 
+              &none            &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &none 
+                                                &kp none         &kp none         &kp none         &kp none         &kp none         &kp none        
             >;
           };
             
