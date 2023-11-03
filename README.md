@@ -29,6 +29,14 @@ Selecting `Create Firmware`
 - once the action is complete it downloads the artifact
 - you can now put that on the keyboard here is how you do that.
 
+To flash the firmware on to keyboard:
+- open up the firmware zip file. 
+- it will have a left and a right uf2 file ( one for each half )
+- Press the reset button twice. ( a blue light will start blinking on the nice nano )
+- Plug in a usb cable to the half of the keyboard.(this will open up an explorer window )
+- Drag the left file from the firmware zip to the keyboard usb explorer window.
+- do the same for the right side. 
+
 
 # /////////// Markup examples below ////////////
 
