@@ -138,10 +138,10 @@ Mac_Nav_layer {
 Gaming_layer {
             label = "Gaming";
             bindings = <
-              &none            &kp J            &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &none 
-              &none            &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &none 
-              &none            &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &kp none         &none 
-                                                &kp none         &kp none         &kp none         &kp none         &kp none         &kp none        
+              &none            &kp J            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
+                                                &none            &none            &none            &none            &none            &none           
             >;
           };
             
