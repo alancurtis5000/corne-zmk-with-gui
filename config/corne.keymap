@@ -18,8 +18,8 @@
 #define Mac_util 7 
 #define PC_Nav 8 
 #define Mac_Nav 9 
-#define PC_Win_Nav 10 
-#define PC_VDesk_Nav 11 
+#define PC_Win 10 
+#define PC_VDesk 11 
     
 / {
     behaviors {
@@ -136,8 +136,8 @@ Mac_Nav_layer {
             >;
           };
             
-PC_Win_Nav_layer {
-            label = "PC_Win_Nav";
+PC_Win_layer {
+            label = "PC_Win";
             bindings = <
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &kp LALT         &kp LS(TAB)      &kp TAB          &none            &none            &none            &none            &none            &none            &none 
@@ -146,8 +146,8 @@ PC_Win_Nav_layer {
             >;
           };
             
-PC_VDesk_Nav_layer {
-            label = "PC_VDesk_Nav";
+PC_VDesk_layer {
+            label = "PC_VDesk";
             bindings = <
               &none            &none            &kp LCTRL        &kp LG(LEFT)     &kp LG(RIGHT)    &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &kp LC(LG(F4))   &kp LC(LG(D))    &none            &none            &none            &none            &none            &none            &none 
