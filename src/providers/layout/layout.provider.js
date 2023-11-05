@@ -102,7 +102,6 @@ export const LayoutProvider = ({ children }) => {
     );
   };
   const setBindingLabelValue = ({ bindingLabelValue }) => {
-    console.log("setBindingLabelValue", { bindingLabelValue });
     setLayout(
       setBindingLabelValueUtil({
         layout,
