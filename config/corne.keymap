@@ -20,6 +20,7 @@
 #define Mac_Nav 9 
 #define PC_Win 10 
 #define PC_VDesk 11 
+#define PC_App 12 
     
 / {
     behaviors {
@@ -40,7 +41,7 @@
             label = "PC";
             bindings = <
               &none            &lt PC_VDesk Q   &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp T            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
-              &none            &lt PC_Win A     &kp S            &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo PC_Nav       &none 
+              &none            &lt PC_Win A     &lt PC_App S     &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo PC_Nav       &none 
               &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
                                                 &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
             >;
@@ -152,6 +153,16 @@ PC_VDesk_layer {
               &none            &none            &kp LCTRL        &kp LG(LEFT)     &kp LG(RIGHT)    &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &kp LC(LG(F4))   &kp LC(LG(D))    &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
+                                                &none            &none            &none            &none            &none            &none           
+            >;
+          };
+            
+PC_App_layer {
+            label = "PC_App";
+            bindings = <
+              &none            &none            &none            &kp LS(LC(PAGE_DOWN)) &kp LS(LC(PAGE_UP)) &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LC(PAGE_DOWN) &kp LC(PAGE_UP)  &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LC(W)        &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
           };
