@@ -18,7 +18,8 @@
 #define Mac_util 7 
 #define PC_Nav 8 
 #define Mac_Nav 9 
-#define PC_Desk_Nav 10 
+#define PC_Win_Nav 10 
+#define PC_VDesk_Nav 11 
     
 / {
     behaviors {
@@ -38,7 +39,7 @@
     PC_layer {
             label = "PC";
             bindings = <
-              &none            &kp Q            &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp T            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
+              &none            &lt PC_VDesk_Nav Q &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp T            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
               &none            &lt PC_Desk_Nav A &kp S            &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo PC_Nav       &none 
               &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
                                                 &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
@@ -135,11 +136,21 @@ Mac_Nav_layer {
             >;
           };
             
-PC_Desk_Nav_layer {
-            label = "PC_Desk_Nav";
+PC_Win_Nav_layer {
+            label = "PC_Win_Nav";
             bindings = <
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &kp LALT         &kp LS(TAB)      &kp TAB          &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LA(KC_F4)    &none            &none            &none            &none            &none            &none            &none            &none 
+                                                &none            &none            &none            &none            &none            &none           
+            >;
+          };
+            
+PC_VDesk_Nav_layer {
+            label = "PC_VDesk_Nav";
+            bindings = <
+              &none            &none            &kp LCTRL        &kp LG(LEFT)     &kp LG(RIGHT)    &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LC(LG(KC_F4)) &kp LC(LG(D))    &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
