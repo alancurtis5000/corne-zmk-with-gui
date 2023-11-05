@@ -141,7 +141,7 @@ PC_Win_Nav_layer {
             bindings = <
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &kp LALT         &kp LS(TAB)      &kp TAB          &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LA(KC_F4)    &none            &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LA(F4)       &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
           };
@@ -150,7 +150,7 @@ PC_VDesk_Nav_layer {
             label = "PC_VDesk_Nav";
             bindings = <
               &none            &none            &kp LCTRL        &kp LG(LEFT)     &kp LG(RIGHT)    &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LC(LG(KC_F4)) &kp LC(LG(D))    &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LC(LG(F4))   &kp LC(LG(D))    &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
