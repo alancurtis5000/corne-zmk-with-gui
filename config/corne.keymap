@@ -37,7 +37,7 @@
     PC_layer {
             label = "PC";
             bindings = <
-              &none            &kp Q            &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp Z            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
+              &none            &kp Q            &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp T            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
               &none            &kp A            &kp S            &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo PC_Nav       &none 
               &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
                                                 &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
