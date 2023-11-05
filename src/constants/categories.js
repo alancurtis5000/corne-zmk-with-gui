@@ -120,4 +120,15 @@ export const categories = [
     priority: 52,
     deleted: false,
   },
+  {
+    id: 69,
+    code: "Fn",
+    label: "Fn Keys",
+    created_at: "2021-10-26T01:56:10.566Z",
+    updated_at: "2021-10-26T01:56:44.063Z",
+    url: null,
+    description: null,
+    priority: 46,
+    deleted: false,
+  },
 ];
