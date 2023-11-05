@@ -7,6 +7,7 @@ import {
   updateLayerLabelUtil,
   setBindingActionValueUtil,
   setBindingActionKeyModifiersUtil,
+  setBindingLabelValueUtil,
   setSelectedBindingLayerUtil,
 } from "./layout.utils";
 import { updateLayoutApi } from "../../api/layouts.api";
@@ -35,6 +36,7 @@ export const LayoutContext = createContext({
   updateLayerLabel: () => {},
   setBindingActionValue: () => {},
   setBindingActionKeyModifiers: () => {},
+  setBindingLabelValue: () => {},
   setSelectedBindingLayer: () => {},
   saveLayout: () => {},
 });
@@ -99,6 +101,17 @@ export const LayoutProvider = ({ children }) => {
       })
     );
   };
+  const setBindingLabelValue = ({ bindingLabelValue }) => {
+    console.log("setBindingLabelValue", { bindingLabelValue });
+    setLayout(
+      setBindingLabelValueUtil({
+        layout,
+        bindingLabelValue,
+        selectedLayerIndex,
+        selectedBindingIndex,
+      })
+    );
+  };
 
   const setBindingActionKeyModifiers = ({ modifier }) => {
     setLayout(
@@ -152,6 +165,7 @@ export const LayoutProvider = ({ children }) => {
         updateLayerLabel,
         setBindingActionValue,
         setBindingActionKeyModifiers,
+        setBindingLabelValue,
         setSelectedBindingLayer,
         saveLayout,
       }}

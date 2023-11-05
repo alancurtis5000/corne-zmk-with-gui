@@ -75,19 +75,19 @@ export const setBindingActionValueUtil = ({
   const binding = layer.bindings[selectedBindingIndex];
   binding[bindingActionKey] = bindingActionValue;
 
-  // dont worry about none here allow for empty objects for value
-  // if (isEmpty(bindingActionValue)) {
-  //   binding[bindingActionKey] = keys.find((key) => key.id === 5002);
-  // } else {
-  //   binding[bindingActionKey] = bindingActionValue;
-  // }
-  // if (bindingActionValue.key_category_id === 65) {
-  //   console.log("binding layer toggle", { bindingActionValue });
-  //   // todo handle layer key category
-  //   // const index = 0;
-  //   // const label = layers[0].label;
-  //   // binding[bindingActionKey].layer = { index, label };
-  // }
+  return { ...layout };
+};
+
+export const setBindingLabelValueUtil = ({
+  layout,
+  bindingLabelValue,
+  selectedLayerIndex,
+  selectedBindingIndex,
+}) => {
+  const layers = layout.layers;
+  const layer = { ...layers[selectedLayerIndex] };
+  const binding = layer.bindings[selectedBindingIndex];
+  binding.label = bindingLabelValue;
 
   return { ...layout };
 };

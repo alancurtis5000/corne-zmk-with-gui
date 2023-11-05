@@ -23,7 +23,7 @@ export const KeyDialogPage1CurrentBindingSettings = (props) => {
     selectedBindingIndex,
     selectedLayerIndex,
     layout,
-    // changeBindingLabel,
+    setBindingLabelValue,
     setSelectedBindingActionKey,
     setBindingActionValue,
   } = useContext(LayoutContext);
@@ -64,9 +64,9 @@ export const KeyDialogPage1CurrentBindingSettings = (props) => {
   };
 
   const handleSave = () => {
-    const input = localLabel;
+    const bindingLabelValue = localLabel;
+    setBindingLabelValue({ bindingLabelValue });
     setIsEdit(false);
-    // changeBindingLabel({ input });
   };
 
   const handleOnChange = (e) => {
