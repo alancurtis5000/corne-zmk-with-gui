@@ -38,6 +38,12 @@ To flash the firmware on to keyboard:
 - do the same for the right side. 
 
 
+## This uses ZMK Firmware
+[Documentation Here] (https://zmk.dev/docs/features/bluetooth#:~:text=To%20pair%20with%20a%20new,active%20profile%20will%20receive%20keystrokes.)
+Bluetooth Connect
+To pair with a new device select an unused profile with or clearing the current profile, using the &bt behavior on your keyboard.
+
+
 # /////////// Markup examples below ////////////
 
 # Header 1
