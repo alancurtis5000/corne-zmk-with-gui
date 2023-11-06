@@ -164,7 +164,7 @@ PC_VDesk_layer {
 Mac_VDesk_layer {
             label = "Mac_VDesk";
             bindings = <
-              &none            &none            &hm LCTRL undefined &kp LEFT         &kp RIGHT        &kp LC(UP)       &none            &none            &none            &none            &none            &none 
+              &none            &none            &kp LCTRL        &kp LEFT         &kp RIGHT        &kp LC(UP)       &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
