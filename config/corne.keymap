@@ -19,9 +19,12 @@
 #define Mac_util 8 
 #define PC_Nav 9 
 #define Mac_Nav 10 
-#define PC_Win 11 
-#define PC_VDesk 12 
+#define PC_VDesk 11 
+#define Mac_VDesk 12 
 #define PC_App 13 
+#define Mac_App 14 
+#define PC_Tabs 15 
+#define Mac_Tabs 16 
     
 / {
     behaviors {
@@ -44,17 +47,17 @@
               &none            &lt PC_VDesk Q   &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp T            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
               &none            &lt PC_Win A     &lt PC_App S     &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo PC_Nav       &none 
               &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
-                                                &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
+                                                &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &hm LG(L) ESC   
             >;
           };
             
 Mac_layer {
             label = "Mac";
             bindings = <
-              &none            &kp Q            &hm LSHIFT W     &hm LALT E       &hm LGUI R       &kp T            &kp Y            &hm RGUI U       &hm RALT I       &hm RSHIFT O     &kp P            &none 
-              &none            &kp A            &kp S            &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo Mac_Nav      &none 
+              &none            &lt Mac_VDesk Q  &hm LSHIFT W     &hm LALT E       &hm LGUI R       &kp T            &kp Y            &hm RGUI U       &hm RALT I       &hm RSHIFT O     &kp P            &none 
+              &none            &lt Mac_App A    &kp S            &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo Mac_Nav      &none 
               &none            &lt Mac_util Z   &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
-                                                &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
+                                                &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &hm LC(LG(Q)) ESC
             >;
           };
             
@@ -111,7 +114,7 @@ Com_Switch_layer {
 Pc_util_layer {
             label = "Pc_util";
             bindings = <
-              &none            &none            &none            &kp LC(Z)        &kp LC(Y)        &kp LC(SLASH)    &none            &none            &none            &none            &none            &none 
+              &none            &none            &kp LS(LG(S))    &kp LC(Z)        &kp LC(Y)        &kp LC(SLASH)    &none            &none            &none            &none            &none            &none 
               &none            &none            &kp LC(S)        &kp BACKSPACE    &kp DEL          &kp TAB          &none            &none            &none            &none            &none            &none 
               &none            &none            &kp LC(X)        &kp LC(C)        &kp LC(V)        &kp LC(A)        &none            &none            &none            &none            &none            &none 
                                                 &none            &kp LALT         &kp LSHIFT       &none            &none            &none           
@@ -121,7 +124,7 @@ Pc_util_layer {
 Mac_util_layer {
             label = "Mac_util";
             bindings = <
-              &none            &none            &none            &kp LG(Z)        &kp LG(Y)        &kp LG(SLASH)    &none            &none            &none            &none            &none            &none 
+              &none            &none            &kp LS(LG(KP_N4)) &kp LG(Z)        &kp LG(Y)        &kp LG(SLASH)    &none            &none            &none            &none            &none            &none 
               &none            &none            &kp LG(S)        &kp BACKSPACE    &kp DEL          &kp TAB          &none            &none            &none            &none            &none            &none 
               &none            &none            &kp LG(X)        &kp LG(C)        &kp LG(V)        &kp LG(A)        &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &kp LSHIFT       &none            &none            &none           
@@ -148,21 +151,21 @@ Mac_Nav_layer {
             >;
           };
             
-PC_Win_layer {
-            label = "PC_Win";
+PC_VDesk_layer {
+            label = "PC_VDesk";
             bindings = <
+              &none            &none            &kp LCTRL        &kp LG(LEFT)     &kp LG(RIGHT)    &kp LG(TAB)      &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LC(LG(F4))   &kp LC(LG(D))    &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &kp LALT         &kp LS(TAB)      &kp TAB          &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LA(F4)       &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
           };
             
-PC_VDesk_layer {
-            label = "PC_VDesk";
+Mac_VDesk_layer {
+            label = "Mac_VDesk";
             bindings = <
-              &none            &none            &kp LCTRL        &kp LG(LEFT)     &kp LG(RIGHT)    &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LC(LG(F4))   &kp LC(LG(D))    &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &hm LCTRL undefined &kp LEFT         &kp RIGHT        &kp LC(UP)       &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
@@ -171,9 +174,39 @@ PC_VDesk_layer {
 PC_App_layer {
             label = "PC_App";
             bindings = <
+              &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &kp LALT         &kp LS(TAB)      &kp TAB          &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LA(F4)       &none            &none            &none            &none            &none            &none            &none            &none 
+                                                &none            &none            &none            &none            &none            &none           
+            >;
+          };
+            
+Mac_App_layer {
+            label = "Mac_App";
+            bindings = <
+              &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &kp LG(TAB)      &kp LEFT         &kp RIGHT        &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LG(W)        &none            &none            &none            &none            &none            &none            &none            &none 
+                                                &none            &none            &none            &none            &none            &none           
+            >;
+          };
+            
+PC_Tabs_layer {
+            label = "PC_Tabs";
+            bindings = <
               &none            &none            &none            &kp LC(LS(PAGE_UP)) &kp LC(LS(PAGE_DOWN)) &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN) &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LC(W)        &none            &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN) &kp LC(T)        &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LC(W)        &kp LS(LC(T))    &none            &none            &none            &none            &none            &none            &none 
+                                                &none            &none            &none            &none            &none            &none           
+            >;
+          };
+            
+Mac_Tabs_layer {
+            label = "Mac_Tabs";
+            bindings = <
+              &none            &none            &none            &kp LS(LC(PAGE_UP)) &kp LS(LC(PAGE_DOWN)) &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LA(LG(LEFT)) &kp LA(LG(RIGHT)) &kp LG(T)        &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LG(W)        &kp LS(LG(T))    &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
           };
