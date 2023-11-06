@@ -43,7 +43,7 @@
             bindings = <
               &none            &lt PC_VDesk Q   &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp T            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
               &none            &lt PC_Win A     &lt PC_App S     &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo PC_Nav       &none 
-              &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &tog Gaming      &mo Com_Switch   &none 
+              &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
                                                 &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
             >;
           };
@@ -173,7 +173,7 @@ Gaming_layer {
             bindings = <
               &none            &kp Q            &kp W            &kp E            &kp R            &kp T            &kp Y            &kp U            &kp I            &kp O            &kp P            &none 
               &none            &kp A            &kp S            &kp D            &kp F            &kp G            &kp H            &kp J            &kp K            &kp L            &none            &none 
-              &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &tog Gaming      &mo Com_Switch            &none 
+              &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &none            &none 
                                                 &none            &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
             >;
           };
