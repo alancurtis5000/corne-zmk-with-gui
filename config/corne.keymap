@@ -173,7 +173,7 @@ Gaming_layer {
             bindings = <
               &none            &kp Q            &kp W            &kp E            &kp R            &kp T            &kp Y            &kp U            &kp I            &kp O            &kp P            &none 
               &none            &kp A            &kp S            &kp D            &kp F            &kp G            &kp H            &kp J            &kp K            &kp L            &none            &none 
-              &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &to PC           &none            &none 
+              &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &tog Gaming      &none            &none 
                                                 &none            &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &kp ESC         
             >;
           };
