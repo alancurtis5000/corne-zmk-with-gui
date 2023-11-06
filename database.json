@@ -77,7 +77,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 12,
+                  "index": 11,
                   "label": "PC_VDesk"
                 }
               }
@@ -670,8 +670,8 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 11,
-                  "label": "PC_Win"
+                  "index": 13,
+                  "label": "PC_App"
                 }
               }
             },
@@ -742,8 +742,8 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 13,
-                  "label": "PC_App"
+                  "index": 15,
+                  "label": "PC_Tabs"
                 }
               }
             },
@@ -1677,7 +1677,7 @@
             },
             {
               "index": 35,
-              "label": "",
+              "label": "Esc / Lockscreen",
               "tap": {
                 "id": 5578,
                 "code": "ESC",
@@ -1710,7 +1710,80 @@
                 "modifiers": [],
                 "layer": {}
               },
-              "held": {}
+              "held": {
+                "id": 5211,
+                "code": "L",
+                "key_category_id": 61,
+                "label": "L",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.125Z",
+                "updated_at": "2022-12-16T10:18:29.948Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyL",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              }
             }
           ]
         },
@@ -1752,7 +1825,43 @@
                 "comboTrigger": true,
                 "modifiers": []
               },
-              "held": {}
+              "held": {
+                "id": 6254,
+                "code": "to",
+                "key_category_id": 65,
+                "label": "Switch To",
+                "description": "Direct switch to a layer. Works for switching to lower layers as well.",
+                "created_at": "2021-12-28T09:53:10.582Z",
+                "updated_at": "2022-12-16T23:38:33.805Z",
+                "deleted": false,
+                "modifiable": false,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": "tap",
+                "glyph": "layer_tap",
+                "jsCode": null,
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": {
+                  "layer": "otherLayers"
+                },
+                "models": null,
+                "priority": null,
+                "macro": null,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {
+                  "index": 12,
+                  "label": "Mac_VDesk"
+                }
+              }
             },
             {
               "index": 1,
@@ -2334,7 +2443,43 @@
                 "comboTrigger": true,
                 "modifiers": []
               },
-              "held": {}
+              "held": {
+                "id": 6254,
+                "code": "to",
+                "key_category_id": 65,
+                "label": "Switch To",
+                "description": "Direct switch to a layer. Works for switching to lower layers as well.",
+                "created_at": "2021-12-28T09:53:10.582Z",
+                "updated_at": "2022-12-16T23:38:33.805Z",
+                "deleted": false,
+                "modifiable": false,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": "tap",
+                "glyph": "layer_tap",
+                "jsCode": null,
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": {
+                  "layer": "otherLayers"
+                },
+                "models": null,
+                "priority": null,
+                "macro": null,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {
+                  "index": 14,
+                  "label": "Mac_App"
+                }
+              }
             },
             {
               "index": 11,
@@ -2370,7 +2515,43 @@
                 "comboTrigger": true,
                 "modifiers": []
               },
-              "held": {}
+              "held": {
+                "id": 6254,
+                "code": "to",
+                "key_category_id": 65,
+                "label": "Switch To",
+                "description": "Direct switch to a layer. Works for switching to lower layers as well.",
+                "created_at": "2021-12-28T09:53:10.582Z",
+                "updated_at": "2022-12-16T23:38:33.805Z",
+                "deleted": false,
+                "modifiable": false,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": "tap",
+                "glyph": "layer_tap",
+                "jsCode": null,
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": {
+                  "layer": "otherLayers"
+                },
+                "models": null,
+                "priority": null,
+                "macro": null,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {
+                  "index": 16,
+                  "label": "Mac_Tabs"
+                }
+              }
             },
             {
               "index": 12,
@@ -3301,7 +3482,7 @@
             },
             {
               "index": 35,
-              "label": "",
+              "label": "Esc / Lockscreen",
               "tap": {
                 "id": 5578,
                 "code": "ESC",
@@ -3334,7 +3515,111 @@
                 "modifiers": [],
                 "layer": {}
               },
-              "held": {}
+              "held": {
+                "id": 5218,
+                "code": "Q",
+                "key_category_id": 61,
+                "label": "Q",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.183Z",
+                "updated_at": "2022-12-16T10:18:30.014Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyQ",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5470,
+                    "key_category_id": 63,
+                    "code": "MOD_LCTL",
+                    "modCode": "LC",
+                    "label": "Left Control",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.833Z",
+                    "updated_at": "2022-12-16T10:18:32.025Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              }
             }
           ]
         },
@@ -7232,8 +7517,112 @@
             },
             {
               "index": 1,
-              "label": "",
-              "tap": {},
+              "label": "Screenshot And Draw",
+              "tap": {
+                "id": 5215,
+                "code": "S",
+                "key_category_id": 61,
+                "label": "S",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.157Z",
+                "updated_at": "2022-12-16T10:18:29.980Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyS",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5464,
+                    "key_category_id": 63,
+                    "code": "MOD_LSFT",
+                    "modCode": "LS",
+                    "label": "Left Shift",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.723Z",
+                    "updated_at": "2022-12-16T10:18:31.964Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
               "held": {}
             },
             {
@@ -8112,8 +8501,112 @@
             },
             {
               "index": 1,
-              "label": "",
-              "tap": {},
+              "label": "Screenshot Crosshairs",
+              "tap": {
+                "id": 6863,
+                "code": "KP_N4",
+                "key_category_id": 77,
+                "label": "4",
+                "description": null,
+                "created_at": "2021-12-28T09:53:15.608Z",
+                "updated_at": "2022-12-16T10:18:45.025Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": "numpad",
+                "glyph": null,
+                "jsCode": "Numpad4",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5464,
+                    "key_category_id": 63,
+                    "code": "MOD_LSFT",
+                    "modCode": "LS",
+                    "label": "Left Shift",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.723Z",
+                    "updated_at": "2022-12-16T10:18:31.964Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
               "held": {}
             },
             {
@@ -10245,7 +10738,1207 @@
         },
         {
           "index": 11,
-          "label": "PC_Win",
+          "label": "PC_VDesk",
+          "bindings": [
+            {
+              "index": 0,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 1,
+              "label": "Hold to switch V Desktop",
+              "tap": {
+                "id": 6003,
+                "code": "LCTRL",
+                "key_category_id": 63,
+                "label": "Left Ctrl",
+                "description": null,
+                "created_at": "2021-12-28T09:53:02.894Z",
+                "updated_at": "2022-12-16T10:18:32.058Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": "control",
+                "tag": null,
+                "glyph": null,
+                "jsCode": "ControlLeft",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 2,
+              "label": "VDesk Back",
+              "tap": {
+                "id": 5333,
+                "code": "LEFT",
+                "key_category_id": 76,
+                "label": "Arrow left",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.622Z",
+                "updated_at": "2022-12-16T10:18:31.011Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "arrow_left",
+                "jsCode": "ArrowLeft",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 1,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 3,
+              "label": "VDesk Next",
+              "tap": {
+                "id": 5334,
+                "code": "RIGHT",
+                "key_category_id": 76,
+                "label": "Arrow right",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.646Z",
+                "updated_at": "2022-12-16T10:18:31.020Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "arrow_right",
+                "jsCode": "ArrowRight",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 3,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 4,
+              "label": "Open Task View",
+              "tap": {
+                "id": 5579,
+                "code": "TAB",
+                "key_category_id": 81,
+                "label": "Tab",
+                "description": null,
+                "created_at": "2021-12-28T09:53:04.153Z",
+                "updated_at": "2022-12-16T10:18:32.986Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": "Tabulation",
+                "tag": null,
+                "glyph": null,
+                "jsCode": "Tab",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 5,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 6,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 7,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 8,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 9,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 10,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 11,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 12,
+              "label": "Close VDesk",
+              "tap": {
+                "id": 5746,
+                "code": "F4",
+                "key_category_id": 69,
+                "label": "F04",
+                "description": null,
+                "created_at": "2021-12-28T09:53:05.910Z",
+                "updated_at": "2022-12-16T10:18:34.491Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "F4",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 4,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5470,
+                    "key_category_id": 63,
+                    "code": "MOD_LCTL",
+                    "modCode": "LC",
+                    "label": "Left Control",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.833Z",
+                    "updated_at": "2022-12-16T10:18:32.025Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 13,
+              "label": "Add VDesk",
+              "tap": {
+                "id": 5206,
+                "code": "D",
+                "key_category_id": 61,
+                "label": "D",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.084Z",
+                "updated_at": "2022-12-16T10:18:29.906Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyD",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5470,
+                    "key_category_id": 63,
+                    "code": "MOD_LCTL",
+                    "modCode": "LC",
+                    "label": "Left Control",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.833Z",
+                    "updated_at": "2022-12-16T10:18:32.025Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 14,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 15,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 16,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 17,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 18,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 19,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 20,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 21,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 22,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 23,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 24,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 25,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 26,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 27,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 28,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 29,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 30,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 31,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 32,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 33,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 34,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 35,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "label": "Mac_VDesk",
+          "bindings": [
+            {
+              "index": 0,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 1,
+              "label": "Hold to Switch VDesks",
+              "tap": {
+                "id": 6003,
+                "code": "LCTRL",
+                "key_category_id": 63,
+                "label": "Left Ctrl",
+                "description": null,
+                "created_at": "2021-12-28T09:53:02.894Z",
+                "updated_at": "2022-12-16T10:18:32.058Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": "control",
+                "tag": null,
+                "glyph": null,
+                "jsCode": "ControlLeft",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {}
+            },
+            {
+              "index": 2,
+              "label": "VDesk Back",
+              "tap": {
+                "id": 5333,
+                "code": "LEFT",
+                "key_category_id": 76,
+                "label": "Arrow left",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.622Z",
+                "updated_at": "2022-12-16T10:18:31.011Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "arrow_left",
+                "jsCode": "ArrowLeft",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 1,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 3,
+              "label": "VDesk Next",
+              "tap": {
+                "id": 5334,
+                "code": "RIGHT",
+                "key_category_id": 76,
+                "label": "Arrow right",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.646Z",
+                "updated_at": "2022-12-16T10:18:31.020Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "arrow_right",
+                "jsCode": "ArrowRight",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 3,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 4,
+              "label": "Open Mission Control",
+              "tap": {
+                "id": 5325,
+                "code": "UP",
+                "key_category_id": 76,
+                "label": "Arrow up",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.480Z",
+                "updated_at": "2022-12-16T10:18:30.942Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "arrow_up",
+                "jsCode": "ArrowUp",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 2,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5470,
+                    "key_category_id": 63,
+                    "code": "MOD_LCTL",
+                    "modCode": "LC",
+                    "label": "Left Control",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.833Z",
+                    "updated_at": "2022-12-16T10:18:32.025Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 5,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 6,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 7,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 8,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 9,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 10,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 11,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 12,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 13,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 14,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 15,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 16,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 17,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 18,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 19,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 20,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 21,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 22,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 23,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 24,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 25,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 26,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 27,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 28,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 29,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 30,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 31,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 32,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 33,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 34,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 35,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "label": "PC_App",
           "bindings": [
             {
               "index": 0,
@@ -10741,8 +12434,8 @@
           ]
         },
         {
-          "index": 12,
-          "label": "PC_VDesk",
+          "index": 14,
+          "label": "Mac_App",
           "bindings": [
             {
               "index": 0,
@@ -10754,201 +12447,24 @@
             },
             {
               "index": 1,
-              "label": "Hold to switch V Desktop",
-              "tap": {
-                "id": 6003,
-                "code": "LCTRL",
-                "key_category_id": 63,
-                "label": "Left Ctrl",
-                "description": null,
-                "created_at": "2021-12-28T09:53:02.894Z",
-                "updated_at": "2022-12-16T10:18:32.058Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": "control",
-                "tag": null,
-                "glyph": null,
-                "jsCode": "ControlLeft",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
+              "label": "",
+              "tap": {},
               "held": {
                 "modifiers": []
               }
             },
             {
               "index": 2,
-              "label": "VDesk Back",
-              "tap": {
-                "id": 5333,
-                "code": "LEFT",
-                "key_category_id": 76,
-                "label": "Arrow left",
-                "description": null,
-                "created_at": "2021-12-28T09:53:00.622Z",
-                "updated_at": "2022-12-16T10:18:31.011Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": "arrow_left",
-                "jsCode": "ArrowLeft",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": 1,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [
-                  {
-                    "id": 5473,
-                    "key_category_id": 63,
-                    "code": "MOD_LGUI",
-                    "modCode": "LG",
-                    "label": "Left GUI",
-                    "description": null,
-                    "created_at": "2021-12-28T09:53:02.879Z",
-                    "updated_at": "2022-12-16T10:18:32.050Z",
-                    "deleted": false,
-                    "modifiable": true,
-                    "shifted": false,
-                    "tap": false,
-                    "hold": false,
-                    "doubleTap": false,
-                    "tapHold": false,
-                    "searchLabel": null,
-                    "tag": null,
-                    "glyph": null,
-                    "jsCode": null,
-                    "url": null,
-                    "os": {
-                      "osx": {
-                        "label": "Left Command"
-                      },
-                      "win": {
-                        "label": "Left Windows"
-                      },
-                      "linux": {
-                        "label": "Left Meta"
-                      }
-                    },
-                    "geometry": null,
-                    "params": null,
-                    "models": null,
-                    "priority": null,
-                    "macro": null,
-                    "shape": null,
-                    "comboPickable": true,
-                    "comboTrigger": true
-                  }
-                ],
-                "layer": {}
-              },
+              "label": "",
+              "tap": {},
               "held": {
                 "modifiers": []
               }
             },
             {
               "index": 3,
-              "label": "VDesk Next",
-              "tap": {
-                "id": 5334,
-                "code": "RIGHT",
-                "key_category_id": 76,
-                "label": "Arrow right",
-                "description": null,
-                "created_at": "2021-12-28T09:53:00.646Z",
-                "updated_at": "2022-12-16T10:18:31.020Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": "arrow_right",
-                "jsCode": "ArrowRight",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": 3,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [
-                  {
-                    "id": 5473,
-                    "key_category_id": 63,
-                    "code": "MOD_LGUI",
-                    "modCode": "LG",
-                    "label": "Left GUI",
-                    "description": null,
-                    "created_at": "2021-12-28T09:53:02.879Z",
-                    "updated_at": "2022-12-16T10:18:32.050Z",
-                    "deleted": false,
-                    "modifiable": true,
-                    "shifted": false,
-                    "tap": false,
-                    "hold": false,
-                    "doubleTap": false,
-                    "tapHold": false,
-                    "searchLabel": null,
-                    "tag": null,
-                    "glyph": null,
-                    "jsCode": null,
-                    "url": null,
-                    "os": {
-                      "osx": {
-                        "label": "Left Command"
-                      },
-                      "win": {
-                        "label": "Left Windows"
-                      },
-                      "linux": {
-                        "label": "Left Meta"
-                      }
-                    },
-                    "geometry": null,
-                    "params": null,
-                    "models": null,
-                    "priority": null,
-                    "macro": null,
-                    "shape": null,
-                    "comboPickable": true,
-                    "comboTrigger": true
-                  }
-                ],
-                "layer": {}
-              },
+              "label": "",
+              "tap": {},
               "held": {
                 "modifiers": []
               }
@@ -11011,23 +12527,15 @@
             },
             {
               "index": 11,
-              "label": "",
-              "tap": {},
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 12,
-              "label": "Close VDesk",
+              "label": "Hold to switch Apps",
               "tap": {
-                "id": 5746,
-                "code": "F4",
-                "key_category_id": 69,
-                "label": "F04",
+                "id": 5579,
+                "code": "TAB",
+                "key_category_id": 81,
+                "label": "Tab",
                 "description": null,
-                "created_at": "2021-12-28T09:53:05.910Z",
-                "updated_at": "2022-12-16T10:18:34.491Z",
+                "created_at": "2021-12-28T09:53:04.153Z",
+                "updated_at": "2022-12-16T10:18:32.986Z",
                 "deleted": false,
                 "modifiable": true,
                 "shifted": false,
@@ -11035,122 +12543,10 @@
                 "hold": true,
                 "doubleTap": true,
                 "tapHold": true,
-                "searchLabel": null,
+                "searchLabel": "Tabulation",
                 "tag": null,
                 "glyph": null,
-                "jsCode": "F4",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": 4,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [
-                  {
-                    "id": 5473,
-                    "key_category_id": 63,
-                    "code": "MOD_LGUI",
-                    "modCode": "LG",
-                    "label": "Left GUI",
-                    "description": null,
-                    "created_at": "2021-12-28T09:53:02.879Z",
-                    "updated_at": "2022-12-16T10:18:32.050Z",
-                    "deleted": false,
-                    "modifiable": true,
-                    "shifted": false,
-                    "tap": false,
-                    "hold": false,
-                    "doubleTap": false,
-                    "tapHold": false,
-                    "searchLabel": null,
-                    "tag": null,
-                    "glyph": null,
-                    "jsCode": null,
-                    "url": null,
-                    "os": {
-                      "osx": {
-                        "label": "Left Command"
-                      },
-                      "win": {
-                        "label": "Left Windows"
-                      },
-                      "linux": {
-                        "label": "Left Meta"
-                      }
-                    },
-                    "geometry": null,
-                    "params": null,
-                    "models": null,
-                    "priority": null,
-                    "macro": null,
-                    "shape": null,
-                    "comboPickable": true,
-                    "comboTrigger": true
-                  },
-                  {
-                    "id": 5470,
-                    "key_category_id": 63,
-                    "code": "MOD_LCTL",
-                    "modCode": "LC",
-                    "label": "Left Control",
-                    "description": null,
-                    "created_at": "2021-12-28T09:53:02.833Z",
-                    "updated_at": "2022-12-16T10:18:32.025Z",
-                    "deleted": false,
-                    "modifiable": true,
-                    "shifted": false,
-                    "tap": false,
-                    "hold": false,
-                    "doubleTap": false,
-                    "tapHold": false,
-                    "searchLabel": null,
-                    "tag": null,
-                    "glyph": null,
-                    "jsCode": null,
-                    "url": null,
-                    "os": null,
-                    "geometry": null,
-                    "params": null,
-                    "models": null,
-                    "priority": null,
-                    "macro": null,
-                    "shape": null,
-                    "comboPickable": true,
-                    "comboTrigger": true
-                  }
-                ],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 13,
-              "label": "Add VDesk",
-              "tap": {
-                "id": 5206,
-                "code": "D",
-                "key_category_id": 61,
-                "label": "D",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.084Z",
-                "updated_at": "2022-12-16T10:18:29.906Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyD",
+                "jsCode": "Tab",
                 "url": null,
                 "os": null,
                 "geometry": null,
@@ -11202,39 +12598,86 @@
                     "shape": null,
                     "comboPickable": true,
                     "comboTrigger": true
-                  },
-                  {
-                    "id": 5470,
-                    "key_category_id": 63,
-                    "code": "MOD_LCTL",
-                    "modCode": "LC",
-                    "label": "Left Control",
-                    "description": null,
-                    "created_at": "2021-12-28T09:53:02.833Z",
-                    "updated_at": "2022-12-16T10:18:32.025Z",
-                    "deleted": false,
-                    "modifiable": true,
-                    "shifted": false,
-                    "tap": false,
-                    "hold": false,
-                    "doubleTap": false,
-                    "tapHold": false,
-                    "searchLabel": null,
-                    "tag": null,
-                    "glyph": null,
-                    "jsCode": null,
-                    "url": null,
-                    "os": null,
-                    "geometry": null,
-                    "params": null,
-                    "models": null,
-                    "priority": null,
-                    "macro": null,
-                    "shape": null,
-                    "comboPickable": true,
-                    "comboTrigger": true
                   }
                 ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 12,
+              "label": "App Back",
+              "tap": {
+                "id": 5333,
+                "code": "LEFT",
+                "key_category_id": 76,
+                "label": "Arrow left",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.622Z",
+                "updated_at": "2022-12-16T10:18:31.011Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "arrow_left",
+                "jsCode": "ArrowLeft",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 1,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 13,
+              "label": "App Next",
+              "tap": {
+                "id": 5334,
+                "code": "RIGHT",
+                "key_category_id": 76,
+                "label": "Arrow right",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.646Z",
+                "updated_at": "2022-12-16T10:18:31.020Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "arrow_right",
+                "jsCode": "ArrowRight",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 3,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
                 "layer": {}
               },
               "held": {
@@ -11307,8 +12750,81 @@
             },
             {
               "index": 22,
-              "label": "",
-              "tap": {},
+              "label": "Close App",
+              "tap": {
+                "id": 5207,
+                "code": "W",
+                "key_category_id": 61,
+                "label": "W",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.093Z",
+                "updated_at": "2022-12-16T10:18:29.914Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyW",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
               "held": {
                 "modifiers": []
               }
@@ -11420,8 +12936,8 @@
           ]
         },
         {
-          "index": 13,
-          "label": "PC_App",
+          "index": 15,
+          "label": "PC_Tabs",
           "bindings": [
             {
               "index": 0,
@@ -11851,11 +13367,72 @@
             },
             {
               "index": 14,
-              "label": "",
-              "tap": {},
-              "held": {
-                "modifiers": []
-              }
+              "label": "New Tab",
+              "tap": {
+                "id": 5223,
+                "code": "T",
+                "key_category_id": 61,
+                "label": "T",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.227Z",
+                "updated_at": "2022-12-16T10:18:30.066Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyT",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5470,
+                    "key_category_id": 63,
+                    "code": "MOD_LCTL",
+                    "modCode": "LC",
+                    "label": "Left Control",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.833Z",
+                    "updated_at": "2022-12-16T10:18:32.025Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {}
             },
             {
               "index": 15,
@@ -11986,8 +13563,1056 @@
             },
             {
               "index": 23,
+              "label": "Reopen Closed Tab",
+              "tap": {
+                "id": 5223,
+                "code": "T",
+                "key_category_id": 61,
+                "label": "T",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.227Z",
+                "updated_at": "2022-12-16T10:18:30.066Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyT",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5470,
+                    "key_category_id": 63,
+                    "code": "MOD_LCTL",
+                    "modCode": "LC",
+                    "label": "Left Control",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.833Z",
+                    "updated_at": "2022-12-16T10:18:32.025Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5464,
+                    "key_category_id": 63,
+                    "code": "MOD_LSFT",
+                    "modCode": "LS",
+                    "label": "Left Shift",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.723Z",
+                    "updated_at": "2022-12-16T10:18:31.964Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 24,
               "label": "",
               "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 25,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 26,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 27,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 28,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 29,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 30,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 31,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 32,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 33,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 34,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 35,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "label": "Mac_Tabs",
+          "bindings": [
+            {
+              "index": 0,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 1,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 2,
+              "label": "Move Tab Left",
+              "tap": {
+                "id": 5324,
+                "code": "PAGE_UP",
+                "key_category_id": 76,
+                "label": "PgUp",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.454Z",
+                "updated_at": "2022-12-16T10:18:30.934Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": "page",
+                "tag": null,
+                "glyph": null,
+                "jsCode": "PageUp",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5470,
+                    "key_category_id": 63,
+                    "code": "MOD_LCTL",
+                    "modCode": "LC",
+                    "label": "Left Control",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.833Z",
+                    "updated_at": "2022-12-16T10:18:32.025Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5464,
+                    "key_category_id": 63,
+                    "code": "MOD_LSFT",
+                    "modCode": "LS",
+                    "label": "Left Shift",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.723Z",
+                    "updated_at": "2022-12-16T10:18:31.964Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 3,
+              "label": "Move Tab Right",
+              "tap": {
+                "id": 5329,
+                "code": "PAGE_DOWN",
+                "key_category_id": 76,
+                "label": "PgDn",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.546Z",
+                "updated_at": "2022-12-16T10:18:30.974Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": "page",
+                "tag": null,
+                "glyph": null,
+                "jsCode": "PageDown",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5470,
+                    "key_category_id": 63,
+                    "code": "MOD_LCTL",
+                    "modCode": "LC",
+                    "label": "Left Control",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.833Z",
+                    "updated_at": "2022-12-16T10:18:32.025Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5464,
+                    "key_category_id": 63,
+                    "code": "MOD_LSFT",
+                    "modCode": "LS",
+                    "label": "Left Shift",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.723Z",
+                    "updated_at": "2022-12-16T10:18:31.964Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 4,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 5,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 6,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 7,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 8,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 9,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 10,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 11,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 12,
+              "label": "Tab Back",
+              "tap": {
+                "id": 5333,
+                "code": "LEFT",
+                "key_category_id": 76,
+                "label": "Arrow left",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.622Z",
+                "updated_at": "2022-12-16T10:18:31.011Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "arrow_left",
+                "jsCode": "ArrowLeft",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 1,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5475,
+                    "key_category_id": 63,
+                    "code": "MOD_LALT",
+                    "modCode": "LA",
+                    "label": "Left alt",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.907Z",
+                    "updated_at": "2022-12-16T10:18:32.067Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Option"
+                      },
+                      "others": {
+                        "label": "Left Alt"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 13,
+              "label": "Tab Next",
+              "tap": {
+                "id": 5334,
+                "code": "RIGHT",
+                "key_category_id": 76,
+                "label": "Arrow right",
+                "description": null,
+                "created_at": "2021-12-28T09:53:00.646Z",
+                "updated_at": "2022-12-16T10:18:31.020Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "arrow_right",
+                "jsCode": "ArrowRight",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 3,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5475,
+                    "key_category_id": 63,
+                    "code": "MOD_LALT",
+                    "modCode": "LA",
+                    "label": "Left alt",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.907Z",
+                    "updated_at": "2022-12-16T10:18:32.067Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Option"
+                      },
+                      "others": {
+                        "label": "Left Alt"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 14,
+              "label": "New Tab",
+              "tap": {
+                "id": 5223,
+                "code": "T",
+                "key_category_id": 61,
+                "label": "T",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.227Z",
+                "updated_at": "2022-12-16T10:18:30.066Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyT",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 15,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 16,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 17,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 18,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 19,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 20,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 21,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 22,
+              "label": "Close Tab",
+              "tap": {
+                "id": 5207,
+                "code": "W",
+                "key_category_id": 61,
+                "label": "W",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.093Z",
+                "updated_at": "2022-12-16T10:18:29.914Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyW",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 23,
+              "label": "Reopen Closed Tab",
+              "tap": {
+                "id": 5223,
+                "code": "T",
+                "key_category_id": 61,
+                "label": "T",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.227Z",
+                "updated_at": "2022-12-16T10:18:30.066Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyT",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [
+                  {
+                    "id": 5473,
+                    "key_category_id": 63,
+                    "code": "MOD_LGUI",
+                    "modCode": "LG",
+                    "label": "Left GUI",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.879Z",
+                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": {
+                      "osx": {
+                        "label": "Left Command"
+                      },
+                      "win": {
+                        "label": "Left Windows"
+                      },
+                      "linux": {
+                        "label": "Left Meta"
+                      }
+                    },
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  },
+                  {
+                    "id": 5464,
+                    "key_category_id": 63,
+                    "code": "MOD_LSFT",
+                    "modCode": "LS",
+                    "label": "Left Shift",
+                    "description": null,
+                    "created_at": "2021-12-28T09:53:02.723Z",
+                    "updated_at": "2022-12-16T10:18:31.964Z",
+                    "deleted": false,
+                    "modifiable": true,
+                    "shifted": false,
+                    "tap": false,
+                    "hold": false,
+                    "doubleTap": false,
+                    "tapHold": false,
+                    "searchLabel": null,
+                    "tag": null,
+                    "glyph": null,
+                    "jsCode": null,
+                    "url": null,
+                    "os": null,
+                    "geometry": null,
+                    "params": null,
+                    "models": null,
+                    "priority": null,
+                    "macro": null,
+                    "shape": null,
+                    "comboPickable": true,
+                    "comboTrigger": true
+                  }
+                ],
+                "layer": {}
+              },
               "held": {
                 "modifiers": []
               }
