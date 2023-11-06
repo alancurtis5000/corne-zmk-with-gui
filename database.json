@@ -77,7 +77,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 11,
+                  "index": 12,
                   "label": "PC_VDesk"
                 }
               }
@@ -670,7 +670,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 10,
+                  "index": 11,
                   "label": "PC_Win"
                 }
               }
@@ -742,7 +742,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 12,
+                  "index": 13,
                   "label": "PC_App"
                 }
               }
@@ -814,7 +814,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 2,
+                  "index": 3,
                   "label": "Numbers"
                 }
               }
@@ -886,7 +886,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 4,
+                  "index": 5,
                   "label": "Sym_Right"
                 }
               }
@@ -1031,7 +1031,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 3,
+                  "index": 4,
                   "label": "Sym_Left"
                 }
               }
@@ -1145,7 +1145,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 8,
+                  "index": 9,
                   "label": "PC_Nav"
                 }
               }
@@ -1217,7 +1217,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 6,
+                  "index": 7,
                   "label": "Pc_util"
                 }
               }
@@ -1447,43 +1447,7 @@
             {
               "index": 28,
               "label": "",
-              "tap": {
-                "id": 6254,
-                "code": "to",
-                "key_category_id": 65,
-                "label": "Switch To",
-                "description": "Direct switch to a layer. Works for switching to lower layers as well.",
-                "created_at": "2021-12-28T09:53:10.582Z",
-                "updated_at": "2022-12-16T23:38:33.805Z",
-                "deleted": false,
-                "modifiable": false,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": "tap",
-                "glyph": "layer_tap",
-                "jsCode": null,
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": {
-                  "layer": "otherLayers"
-                },
-                "models": null,
-                "priority": null,
-                "macro": null,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {
-                  "index": 13,
-                  "label": "Gaming"
-                }
-              },
+              "tap": {},
               "held": {}
             },
             {
@@ -1523,7 +1487,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 5,
+                  "index": 6,
                   "label": "Com_Switch"
                 }
               }
@@ -2475,7 +2439,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 2,
+                  "index": 3,
                   "label": "Numbers"
                 }
               }
@@ -2547,7 +2511,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 4,
+                  "index": 5,
                   "label": "Sym_Right"
                 }
               }
@@ -2691,7 +2655,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 3,
+                  "index": 4,
                   "label": "Sym_Left"
                 }
               }
@@ -2805,7 +2769,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 9,
+                  "index": 10,
                   "label": "Mac_Nav"
                 }
               }
@@ -2877,7 +2841,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 7,
+                  "index": 8,
                   "label": "Mac_util"
                 }
               }
@@ -3147,7 +3111,7 @@
                 "comboTrigger": true,
                 "modifiers": [],
                 "layer": {
-                  "index": 5,
+                  "index": 6,
                   "label": "Com_Switch"
                 }
               }
@@ -3376,6 +3340,1298 @@
         },
         {
           "index": 2,
+          "label": "Gaming",
+          "bindings": [
+            {
+              "index": 0,
+              "label": "",
+              "tap": {
+                "id": 5218,
+                "code": "Q",
+                "key_category_id": 61,
+                "label": "Q",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.183Z",
+                "updated_at": "2022-12-16T10:18:30.014Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyQ",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 1,
+              "label": "",
+              "tap": {
+                "id": 5207,
+                "code": "W",
+                "key_category_id": 61,
+                "label": "W",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.093Z",
+                "updated_at": "2022-12-16T10:18:29.914Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyW",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 2,
+              "label": "",
+              "tap": {
+                "id": 5202,
+                "code": "E",
+                "key_category_id": 61,
+                "label": "E",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.049Z",
+                "updated_at": "2022-12-16T10:18:29.870Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyE",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 3,
+              "label": "",
+              "tap": {
+                "id": 5217,
+                "code": "R",
+                "key_category_id": 61,
+                "label": "R",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.175Z",
+                "updated_at": "2022-12-16T10:18:29.999Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyR",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 4,
+              "label": "",
+              "tap": {
+                "id": 5223,
+                "code": "T",
+                "key_category_id": 61,
+                "label": "T",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.227Z",
+                "updated_at": "2022-12-16T10:18:30.066Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyT",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 5,
+              "label": "",
+              "tap": {
+                "id": 5212,
+                "code": "Y",
+                "key_category_id": 61,
+                "label": "Y",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.133Z",
+                "updated_at": "2022-12-16T10:18:29.956Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyY",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 6,
+              "label": "",
+              "tap": {
+                "id": 5221,
+                "code": "U",
+                "key_category_id": 61,
+                "label": "U",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.208Z",
+                "updated_at": "2022-12-16T10:18:30.045Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyU",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 7,
+              "label": "",
+              "tap": {
+                "id": 5205,
+                "code": "I",
+                "key_category_id": 61,
+                "label": "I",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.075Z",
+                "updated_at": "2022-12-16T10:18:29.897Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyI",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 8,
+              "label": "",
+              "tap": {
+                "id": 5220,
+                "code": "O",
+                "key_category_id": 61,
+                "label": "O",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.200Z",
+                "updated_at": "2022-12-16T10:18:30.036Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyO",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 9,
+              "label": "",
+              "tap": {
+                "id": 5209,
+                "code": "P",
+                "key_category_id": 61,
+                "label": "P",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.110Z",
+                "updated_at": "2022-12-16T10:18:29.931Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyP",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 10,
+              "label": "",
+              "tap": {
+                "id": 5199,
+                "code": "A",
+                "key_category_id": 61,
+                "label": "A",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.022Z",
+                "updated_at": "2022-12-16T10:18:29.845Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyA",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 11,
+              "label": "",
+              "tap": {
+                "id": 5215,
+                "code": "S",
+                "key_category_id": 61,
+                "label": "S",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.157Z",
+                "updated_at": "2022-12-16T10:18:29.980Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyS",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 12,
+              "label": "",
+              "tap": {
+                "id": 5206,
+                "code": "D",
+                "key_category_id": 61,
+                "label": "D",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.084Z",
+                "updated_at": "2022-12-16T10:18:29.906Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyD",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 13,
+              "label": "",
+              "tap": {
+                "id": 5200,
+                "code": "F",
+                "key_category_id": 61,
+                "label": "F",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.031Z",
+                "updated_at": "2022-12-16T10:18:29.853Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyF",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 14,
+              "label": "",
+              "tap": {
+                "id": 5208,
+                "code": "G",
+                "key_category_id": 61,
+                "label": "G",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.102Z",
+                "updated_at": "2022-12-16T10:18:29.923Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyG",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 15,
+              "label": "",
+              "tap": {
+                "id": 5219,
+                "code": "H",
+                "key_category_id": 61,
+                "label": "H",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.191Z",
+                "updated_at": "2022-12-16T10:18:30.025Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyH",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 16,
+              "label": "",
+              "tap": {
+                "id": 5210,
+                "code": "J",
+                "key_category_id": 61,
+                "label": "J",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.117Z",
+                "updated_at": "2022-12-16T10:18:29.940Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyJ",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 17,
+              "label": "",
+              "tap": {
+                "id": 5224,
+                "code": "K",
+                "key_category_id": 61,
+                "label": "K",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.236Z",
+                "updated_at": "2022-12-16T10:18:30.076Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyK",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 18,
+              "label": "",
+              "tap": {
+                "id": 5211,
+                "code": "L",
+                "key_category_id": 61,
+                "label": "L",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.125Z",
+                "updated_at": "2022-12-16T10:18:29.948Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyL",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 19,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 20,
+              "label": "",
+              "tap": {
+                "id": 5214,
+                "code": "Z",
+                "key_category_id": 61,
+                "label": "Z",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.149Z",
+                "updated_at": "2022-12-16T10:18:29.972Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyZ",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "id": 6254,
+                "code": "to",
+                "key_category_id": 65,
+                "label": "Switch To",
+                "description": "Direct switch to a layer. Works for switching to lower layers as well.",
+                "created_at": "2021-12-28T09:53:10.582Z",
+                "updated_at": "2022-12-16T23:38:33.805Z",
+                "deleted": false,
+                "modifiable": false,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": "tap",
+                "glyph": "layer_tap",
+                "jsCode": null,
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": {
+                  "layer": "otherLayers"
+                },
+                "models": null,
+                "priority": null,
+                "macro": null,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {
+                  "index": 7,
+                  "label": "Pc_util"
+                }
+              }
+            },
+            {
+              "index": 21,
+              "label": "",
+              "tap": {
+                "id": 5213,
+                "code": "X",
+                "key_category_id": 61,
+                "label": "X",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.142Z",
+                "updated_at": "2022-12-16T10:18:29.964Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyX",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 22,
+              "label": "",
+              "tap": {
+                "id": 5216,
+                "code": "C",
+                "key_category_id": 61,
+                "label": "C",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.165Z",
+                "updated_at": "2022-12-16T10:18:29.989Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyC",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 23,
+              "label": "",
+              "tap": {
+                "id": 5204,
+                "code": "V",
+                "key_category_id": 61,
+                "label": "V",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.066Z",
+                "updated_at": "2022-12-16T10:18:29.887Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyV",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 24,
+              "label": "",
+              "tap": {
+                "id": 5203,
+                "code": "B",
+                "key_category_id": 61,
+                "label": "B",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.057Z",
+                "updated_at": "2022-12-16T10:18:29.879Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyB",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 25,
+              "label": "",
+              "tap": {
+                "id": 5222,
+                "code": "N",
+                "key_category_id": 61,
+                "label": "N",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.217Z",
+                "updated_at": "2022-12-16T10:18:30.056Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyN",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 26,
+              "label": "",
+              "tap": {
+                "id": 5201,
+                "code": "M",
+                "key_category_id": 61,
+                "label": "M",
+                "description": null,
+                "created_at": "2021-12-28T09:52:59.040Z",
+                "updated_at": "2022-12-16T10:18:29.862Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": null,
+                "jsCode": "KeyM",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 27,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 28,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 29,
+              "label": "",
+              "tap": {},
+              "held": {
+                "id": 6254,
+                "code": "to",
+                "key_category_id": 65,
+                "label": "Switch To",
+                "description": "Direct switch to a layer. Works for switching to lower layers as well.",
+                "created_at": "2021-12-28T09:53:10.582Z",
+                "updated_at": "2022-12-16T23:38:33.805Z",
+                "deleted": false,
+                "modifiable": false,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": "tap",
+                "glyph": "layer_tap",
+                "jsCode": null,
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": {
+                  "layer": "otherLayers"
+                },
+                "models": null,
+                "priority": null,
+                "macro": null,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {
+                  "index": 6,
+                  "label": "Com_Switch"
+                }
+              }
+            },
+            {
+              "index": 30,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 31,
+              "label": "",
+              "tap": {
+                "id": 5589,
+                "code": "SPACE",
+                "key_category_id": 81,
+                "label": "Space",
+                "description": null,
+                "created_at": "2021-12-28T09:53:04.184Z",
+                "updated_at": "2022-12-16T10:18:33.007Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": "spaceonly",
+                "tag": null,
+                "glyph": "space",
+                "jsCode": "Space",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 1,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 32,
+              "label": "",
+              "tap": {
+                "id": 6001,
+                "code": "LSHIFT",
+                "key_category_id": 63,
+                "label": "Left shift",
+                "description": null,
+                "created_at": "2021-12-28T09:53:02.738Z",
+                "updated_at": "2022-12-16T10:18:31.972Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": null,
+                "glyph": "shift_left",
+                "jsCode": "ShiftLeft",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 33,
+              "label": "",
+              "tap": {},
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 34,
+              "label": "",
+              "tap": {
+                "id": 5577,
+                "code": "ENTER",
+                "key_category_id": 81,
+                "label": "Enter",
+                "description": null,
+                "created_at": "2021-12-28T09:53:04.131Z",
+                "updated_at": "2022-12-16T10:18:32.968Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": "Enter Return",
+                "tag": null,
+                "glyph": "enter",
+                "jsCode": "Enter",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": 2,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 35,
+              "label": "",
+              "tap": {
+                "id": 5578,
+                "code": "ESC",
+                "key_category_id": 81,
+                "label": "Esc",
+                "description": null,
+                "created_at": "2021-12-28T09:53:04.142Z",
+                "updated_at": "2022-12-16T10:18:32.977Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": "Escape",
+                "tag": null,
+                "glyph": null,
+                "jsCode": "Escape",
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            }
+          ]
+        },
+        {
+          "index": 3,
           "label": "Numbers",
           "bindings": [
             {
@@ -4077,7 +5333,7 @@
           ]
         },
         {
-          "index": 3,
+          "index": 4,
           "label": "Sym_Left",
           "bindings": [
             {
@@ -4779,7 +6035,7 @@
           ]
         },
         {
-          "index": 4,
+          "index": 5,
           "label": "Sym_Right",
           "bindings": [
             {
@@ -5481,7 +6737,7 @@
           ]
         },
         {
-          "index": 5,
+          "index": 6,
           "label": "Com_Switch",
           "bindings": [
             {
@@ -5785,7 +7041,43 @@
             {
               "index": 12,
               "label": "",
-              "tap": {},
+              "tap": {
+                "id": 6254,
+                "code": "to",
+                "key_category_id": 65,
+                "label": "Switch To",
+                "description": "Direct switch to a layer. Works for switching to lower layers as well.",
+                "created_at": "2021-12-28T09:53:10.582Z",
+                "updated_at": "2022-12-16T23:38:33.805Z",
+                "deleted": false,
+                "modifiable": false,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": null,
+                "tag": "tap",
+                "glyph": "layer_tap",
+                "jsCode": null,
+                "url": null,
+                "os": null,
+                "geometry": null,
+                "params": {
+                  "layer": "otherLayers"
+                },
+                "models": null,
+                "priority": null,
+                "macro": null,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {
+                  "index": 2,
+                  "label": "Gaming"
+                }
+              },
               "held": {}
             },
             {
@@ -5929,7 +7221,7 @@
           ]
         },
         {
-          "index": 6,
+          "index": 7,
           "label": "Pc_util",
           "bindings": [
             {
@@ -6809,7 +8101,7 @@
           ]
         },
         {
-          "index": 7,
+          "index": 8,
           "label": "Mac_util",
           "bindings": [
             {
@@ -7730,7 +9022,7 @@
           ]
         },
         {
-          "index": 8,
+          "index": 9,
           "label": "PC_Nav",
           "bindings": [
             {
@@ -8420,7 +9712,7 @@
           ]
         },
         {
-          "index": 9,
+          "index": 10,
           "label": "Mac_Nav",
           "bindings": [
             {
@@ -8952,7 +10244,7 @@
           ]
         },
         {
-          "index": 10,
+          "index": 11,
           "label": "PC_Win",
           "bindings": [
             {
@@ -9449,7 +10741,7 @@
           ]
         },
         {
-          "index": 11,
+          "index": 12,
           "label": "PC_VDesk",
           "bindings": [
             {
@@ -10128,7 +11420,7 @@
           ]
         },
         {
-          "index": 12,
+          "index": 13,
           "label": "PC_App",
           "bindings": [
             {
@@ -10797,1303 +12089,9 @@
               }
             }
           ]
-        },
-        {
-          "index": 13,
-          "label": "Gaming",
-          "bindings": [
-            {
-              "index": 0,
-              "label": "",
-              "tap": {
-                "id": 5218,
-                "code": "Q",
-                "key_category_id": 61,
-                "label": "Q",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.183Z",
-                "updated_at": "2022-12-16T10:18:30.014Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyQ",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 1,
-              "label": "",
-              "tap": {
-                "id": 5207,
-                "code": "W",
-                "key_category_id": 61,
-                "label": "W",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.093Z",
-                "updated_at": "2022-12-16T10:18:29.914Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyW",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 2,
-              "label": "",
-              "tap": {
-                "id": 5202,
-                "code": "E",
-                "key_category_id": 61,
-                "label": "E",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.049Z",
-                "updated_at": "2022-12-16T10:18:29.870Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyE",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 3,
-              "label": "",
-              "tap": {
-                "id": 5217,
-                "code": "R",
-                "key_category_id": 61,
-                "label": "R",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.175Z",
-                "updated_at": "2022-12-16T10:18:29.999Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyR",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 4,
-              "label": "",
-              "tap": {
-                "id": 5223,
-                "code": "T",
-                "key_category_id": 61,
-                "label": "T",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.227Z",
-                "updated_at": "2022-12-16T10:18:30.066Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyT",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 5,
-              "label": "",
-              "tap": {
-                "id": 5212,
-                "code": "Y",
-                "key_category_id": 61,
-                "label": "Y",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.133Z",
-                "updated_at": "2022-12-16T10:18:29.956Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyY",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 6,
-              "label": "",
-              "tap": {
-                "id": 5221,
-                "code": "U",
-                "key_category_id": 61,
-                "label": "U",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.208Z",
-                "updated_at": "2022-12-16T10:18:30.045Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyU",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 7,
-              "label": "",
-              "tap": {
-                "id": 5205,
-                "code": "I",
-                "key_category_id": 61,
-                "label": "I",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.075Z",
-                "updated_at": "2022-12-16T10:18:29.897Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyI",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 8,
-              "label": "",
-              "tap": {
-                "id": 5220,
-                "code": "O",
-                "key_category_id": 61,
-                "label": "O",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.200Z",
-                "updated_at": "2022-12-16T10:18:30.036Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyO",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 9,
-              "label": "",
-              "tap": {
-                "id": 5209,
-                "code": "P",
-                "key_category_id": 61,
-                "label": "P",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.110Z",
-                "updated_at": "2022-12-16T10:18:29.931Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyP",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 10,
-              "label": "",
-              "tap": {
-                "id": 5199,
-                "code": "A",
-                "key_category_id": 61,
-                "label": "A",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.022Z",
-                "updated_at": "2022-12-16T10:18:29.845Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyA",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 11,
-              "label": "",
-              "tap": {
-                "id": 5215,
-                "code": "S",
-                "key_category_id": 61,
-                "label": "S",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.157Z",
-                "updated_at": "2022-12-16T10:18:29.980Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyS",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 12,
-              "label": "",
-              "tap": {
-                "id": 5206,
-                "code": "D",
-                "key_category_id": 61,
-                "label": "D",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.084Z",
-                "updated_at": "2022-12-16T10:18:29.906Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyD",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 13,
-              "label": "",
-              "tap": {
-                "id": 5200,
-                "code": "F",
-                "key_category_id": 61,
-                "label": "F",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.031Z",
-                "updated_at": "2022-12-16T10:18:29.853Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyF",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 14,
-              "label": "",
-              "tap": {
-                "id": 5208,
-                "code": "G",
-                "key_category_id": 61,
-                "label": "G",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.102Z",
-                "updated_at": "2022-12-16T10:18:29.923Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyG",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 15,
-              "label": "",
-              "tap": {
-                "id": 5219,
-                "code": "H",
-                "key_category_id": 61,
-                "label": "H",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.191Z",
-                "updated_at": "2022-12-16T10:18:30.025Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyH",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 16,
-              "label": "",
-              "tap": {
-                "id": 5210,
-                "code": "J",
-                "key_category_id": 61,
-                "label": "J",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.117Z",
-                "updated_at": "2022-12-16T10:18:29.940Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyJ",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 17,
-              "label": "",
-              "tap": {
-                "id": 5224,
-                "code": "K",
-                "key_category_id": 61,
-                "label": "K",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.236Z",
-                "updated_at": "2022-12-16T10:18:30.076Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyK",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 18,
-              "label": "",
-              "tap": {
-                "id": 5211,
-                "code": "L",
-                "key_category_id": 61,
-                "label": "L",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.125Z",
-                "updated_at": "2022-12-16T10:18:29.948Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyL",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 19,
-              "label": "",
-              "tap": {},
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 20,
-              "label": "",
-              "tap": {
-                "id": 5214,
-                "code": "Z",
-                "key_category_id": 61,
-                "label": "Z",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.149Z",
-                "updated_at": "2022-12-16T10:18:29.972Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyZ",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "id": 6254,
-                "code": "to",
-                "key_category_id": 65,
-                "label": "Switch To",
-                "description": "Direct switch to a layer. Works for switching to lower layers as well.",
-                "created_at": "2021-12-28T09:53:10.582Z",
-                "updated_at": "2022-12-16T23:38:33.805Z",
-                "deleted": false,
-                "modifiable": false,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": "tap",
-                "glyph": "layer_tap",
-                "jsCode": null,
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": {
-                  "layer": "otherLayers"
-                },
-                "models": null,
-                "priority": null,
-                "macro": null,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {
-                  "index": 6,
-                  "label": "Pc_util"
-                }
-              }
-            },
-            {
-              "index": 21,
-              "label": "",
-              "tap": {
-                "id": 5213,
-                "code": "X",
-                "key_category_id": 61,
-                "label": "X",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.142Z",
-                "updated_at": "2022-12-16T10:18:29.964Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyX",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 22,
-              "label": "",
-              "tap": {
-                "id": 5216,
-                "code": "C",
-                "key_category_id": 61,
-                "label": "C",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.165Z",
-                "updated_at": "2022-12-16T10:18:29.989Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyC",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 23,
-              "label": "",
-              "tap": {
-                "id": 5204,
-                "code": "V",
-                "key_category_id": 61,
-                "label": "V",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.066Z",
-                "updated_at": "2022-12-16T10:18:29.887Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyV",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 24,
-              "label": "",
-              "tap": {
-                "id": 5203,
-                "code": "B",
-                "key_category_id": 61,
-                "label": "B",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.057Z",
-                "updated_at": "2022-12-16T10:18:29.879Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyB",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 25,
-              "label": "",
-              "tap": {
-                "id": 5222,
-                "code": "N",
-                "key_category_id": 61,
-                "label": "N",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.217Z",
-                "updated_at": "2022-12-16T10:18:30.056Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyN",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 26,
-              "label": "",
-              "tap": {
-                "id": 5201,
-                "code": "M",
-                "key_category_id": 61,
-                "label": "M",
-                "description": null,
-                "created_at": "2021-12-28T09:52:59.040Z",
-                "updated_at": "2022-12-16T10:18:29.862Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": null,
-                "jsCode": "KeyM",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 27,
-              "label": "",
-              "tap": {},
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 28,
-              "label": "",
-              "tap": {
-                "id": 6254,
-                "code": "to",
-                "key_category_id": 65,
-                "label": "Switch To",
-                "description": "Direct switch to a layer. Works for switching to lower layers as well.",
-                "created_at": "2021-12-28T09:53:10.582Z",
-                "updated_at": "2022-12-16T23:38:33.805Z",
-                "deleted": false,
-                "modifiable": false,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": "tap",
-                "glyph": "layer_tap",
-                "jsCode": null,
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": {
-                  "layer": "otherLayers"
-                },
-                "models": null,
-                "priority": null,
-                "macro": null,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {
-                  "index": 0,
-                  "label": "PC"
-                }
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 29,
-              "label": "",
-              "tap": {},
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 30,
-              "label": "",
-              "tap": {},
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 31,
-              "label": "",
-              "tap": {
-                "id": 5589,
-                "code": "SPACE",
-                "key_category_id": 81,
-                "label": "Space",
-                "description": null,
-                "created_at": "2021-12-28T09:53:04.184Z",
-                "updated_at": "2022-12-16T10:18:33.007Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": "spaceonly",
-                "tag": null,
-                "glyph": "space",
-                "jsCode": "Space",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": 1,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 32,
-              "label": "",
-              "tap": {
-                "id": 6001,
-                "code": "LSHIFT",
-                "key_category_id": 63,
-                "label": "Left shift",
-                "description": null,
-                "created_at": "2021-12-28T09:53:02.738Z",
-                "updated_at": "2022-12-16T10:18:31.972Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": "shift_left",
-                "jsCode": "ShiftLeft",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 33,
-              "label": "",
-              "tap": {},
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 34,
-              "label": "",
-              "tap": {
-                "id": 5577,
-                "code": "ENTER",
-                "key_category_id": 81,
-                "label": "Enter",
-                "description": null,
-                "created_at": "2021-12-28T09:53:04.131Z",
-                "updated_at": "2022-12-16T10:18:32.968Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": "Enter Return",
-                "tag": null,
-                "glyph": "enter",
-                "jsCode": "Enter",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": 2,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
-              "index": 35,
-              "label": "",
-              "tap": {
-                "id": 5578,
-                "code": "ESC",
-                "key_category_id": 81,
-                "label": "Esc",
-                "description": null,
-                "created_at": "2021-12-28T09:53:04.142Z",
-                "updated_at": "2022-12-16T10:18:32.977Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": "Escape",
-                "tag": null,
-                "glyph": null,
-                "jsCode": "Escape",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": null,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            }
-          ]
         }
       ],
-      "lastArtifactId": 1029866229
+      "lastArtifactId": 1029985839
     },
     {
       "lastArtifactId": 570949394,
