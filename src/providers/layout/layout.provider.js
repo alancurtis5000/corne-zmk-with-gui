@@ -73,6 +73,7 @@ export const LayoutProvider = ({ children }) => {
       }
     }
   };
+
   const deleteLayer = async () => {
     const layers = layout.layers;
     // cant delete if only one layer

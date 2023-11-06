@@ -55,7 +55,7 @@ export const LayerTabs = () => {
       </Box>
       {layout?.layers?.map((layer) => {
         return (
-          <LayerPanel key={layer.label} index={layer.index} layer={layer} />
+          <LayerPanel key={layer.index} index={layer.index} layer={layer} />
         );
       })}
     </Box>

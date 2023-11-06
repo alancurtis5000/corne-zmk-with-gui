@@ -21,7 +21,23 @@ export const moveLayerUtil = ({ layout, direction, index }) => {
     }
   });
 
+  // update all the bindings that involve these layers
   if (targetLayer && sourceLayer) {
+    updatedLayers?.forEach((layer) => {
+      layer?.bindings?.forEach((binding) => {
+        if (binding?.held?.layer?.index === sourceLayer.index) {
+          binding.held.layer.index = targetLayer.index;
+        } else if (binding?.held?.layer?.index === targetLayer.index) {
+          binding.held.layer.index = sourceLayer.index;
+        } else if (binding?.tap?.layer?.index === sourceLayer.index) {
+          binding.tap.layer.index = targetLayer.index;
+        } else if (binding?.tap?.layer?.index === targetLayer.index) {
+          binding.tap.layer.index = sourceLayer.index;
+        }
+      });
+    });
+
+    // update the indexes on the layers themselves
     if (direction === "left") {
       sourceLayer.index = sourceLayer.index - 1;
       targetLayer.index = targetLayer.index + 1;
@@ -30,8 +46,10 @@ export const moveLayerUtil = ({ layout, direction, index }) => {
       targetLayer.index = targetLayer.index - 1;
     }
 
+    // swap the places of each layer
     updatedLayers.splice(sourceLayer.index, 1, sourceLayer);
     updatedLayers.splice(targetLayer.index, 1, targetLayer);
+
     layout.layers = updatedLayers;
 
     return { ...layout };
@@ -43,9 +61,59 @@ export const moveLayerUtil = ({ layout, direction, index }) => {
 export const deleteLayerUtil = ({ layout, selectedLayerIndex }) => {
   const layers = layout.layers;
   const updatedLayers = [...layers];
+
+  // remove all bindings that had this layer as a toggle
+  if (selectedLayerIndex) {
+    updatedLayers?.forEach((layer) => {
+      layer?.bindings?.forEach((binding) => {
+        if (binding?.held?.layer?.index === selectedLayerIndex) {
+          binding.held = {};
+        } else if (binding?.tap?.layer?.index === selectedLayerIndex) {
+          binding.tap = {};
+        }
+      });
+    });
+  }
+
+  // remove the layer from the array
   updatedLayers.splice(selectedLayerIndex, 1);
-  updatedLayers.forEach((layer, index) => (layer.index = index));
-  layout.layers = updatedLayers;
+
+  // update new layer indexes
+  let mappedLayers = updatedLayers.map((layer, index) => {
+    layer.index = index;
+    return layer;
+  });
+
+  // list of new values for bindings with layers
+  let updatedBindingMapping = mappedLayers.map((layer) => {
+    return { label: layer.label, index: layer.index };
+  });
+
+  // update all the bindings with the current index order
+  let remapBindings = mappedLayers.map((layer) => {
+    let newBindings = layer?.bindings?.map((binding) => {
+      if (binding?.held?.layer?.label) {
+        const matchedLayer = updatedBindingMapping.find(
+          (x) => x.label === binding.held.layer.label
+        );
+        if (matchedLayer) {
+          binding.held.layer = matchedLayer;
+        }
+      } else if (binding?.tap?.layer?.label) {
+        const matchedLayer = updatedBindingMapping.find(
+          (x) => x.label === binding.tap.layer.label
+        );
+        if (matchedLayer) {
+          binding.tap.layer = matchedLayer;
+        }
+      }
+      return binding;
+    });
+    layer.bindings = [...newBindings];
+    return layer;
+  });
+
+  layout.layers = [...remapBindings];
 
   return { ...layout };
 };
