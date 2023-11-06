@@ -34,6 +34,7 @@ export const LayerTabs = () => {
           value={selectedLayerIndex}
           onChange={handleChange}
           aria-label="layer tabs"
+          variant="scrollable"
         >
           {layout?.layers?.map((layer) => {
             return (
