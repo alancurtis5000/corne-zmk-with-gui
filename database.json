@@ -12793,6 +12793,58 @@
               "index": 11,
               "label": "Hold to switch Apps",
               "tap": {
+                "id": 6007,
+                "code": "LGUI",
+                "key_category_id": 63,
+                "label": "Left Gui",
+                "description": null,
+                "created_at": "2021-12-28T09:53:02.712Z",
+                "updated_at": "2022-12-16T10:18:31.956Z",
+                "deleted": false,
+                "modifiable": true,
+                "shifted": false,
+                "tap": true,
+                "hold": true,
+                "doubleTap": true,
+                "tapHold": true,
+                "searchLabel": "gui cmd command meta windows super",
+                "tag": null,
+                "glyph": null,
+                "jsCode": "MetaLeft",
+                "url": null,
+                "os": {
+                  "osx": {
+                    "glyph": "command_left",
+                    "label": "Left Command"
+                  },
+                  "win": {
+                    "glyph": "windows_left",
+                    "label": "Left Windows"
+                  },
+                  "linux": {
+                    "glyph": "linux_left",
+                    "label": "Left Meta"
+                  }
+                },
+                "geometry": null,
+                "params": null,
+                "models": null,
+                "priority": null,
+                "macro": true,
+                "shape": null,
+                "comboPickable": true,
+                "comboTrigger": true,
+                "modifiers": [],
+                "layer": {}
+              },
+              "held": {
+                "modifiers": []
+              }
+            },
+            {
+              "index": 12,
+              "label": "App Back",
+              "tap": {
                 "id": 5579,
                 "code": "TAB",
                 "key_category_id": 81,
@@ -12823,14 +12875,14 @@
                 "comboTrigger": true,
                 "modifiers": [
                   {
-                    "id": 5473,
+                    "id": 5464,
                     "key_category_id": 63,
-                    "code": "MOD_LGUI",
-                    "modCode": "LG",
-                    "label": "Left GUI",
+                    "code": "MOD_LSFT",
+                    "modCode": "LS",
+                    "label": "Left Shift",
                     "description": null,
-                    "created_at": "2021-12-28T09:53:02.879Z",
-                    "updated_at": "2022-12-16T10:18:32.050Z",
+                    "created_at": "2021-12-28T09:53:02.723Z",
+                    "updated_at": "2022-12-16T10:18:31.964Z",
                     "deleted": false,
                     "modifiable": true,
                     "shifted": false,
@@ -12843,17 +12895,7 @@
                     "glyph": null,
                     "jsCode": null,
                     "url": null,
-                    "os": {
-                      "osx": {
-                        "label": "Left Command"
-                      },
-                      "win": {
-                        "label": "Left Windows"
-                      },
-                      "linux": {
-                        "label": "Left Meta"
-                      }
-                    },
+                    "os": null,
                     "geometry": null,
                     "params": null,
                     "models": null,
@@ -12871,55 +12913,16 @@
               }
             },
             {
-              "index": 12,
-              "label": "App Back",
-              "tap": {
-                "id": 5333,
-                "code": "LEFT",
-                "key_category_id": 76,
-                "label": "Arrow left",
-                "description": null,
-                "created_at": "2021-12-28T09:53:00.622Z",
-                "updated_at": "2022-12-16T10:18:31.011Z",
-                "deleted": false,
-                "modifiable": true,
-                "shifted": false,
-                "tap": true,
-                "hold": true,
-                "doubleTap": true,
-                "tapHold": true,
-                "searchLabel": null,
-                "tag": null,
-                "glyph": "arrow_left",
-                "jsCode": "ArrowLeft",
-                "url": null,
-                "os": null,
-                "geometry": null,
-                "params": null,
-                "models": null,
-                "priority": 1,
-                "macro": true,
-                "shape": null,
-                "comboPickable": true,
-                "comboTrigger": true,
-                "modifiers": [],
-                "layer": {}
-              },
-              "held": {
-                "modifiers": []
-              }
-            },
-            {
               "index": 13,
               "label": "App Next",
               "tap": {
-                "id": 5334,
-                "code": "RIGHT",
-                "key_category_id": 76,
-                "label": "Arrow right",
+                "id": 5579,
+                "code": "TAB",
+                "key_category_id": 81,
+                "label": "Tab",
                 "description": null,
-                "created_at": "2021-12-28T09:53:00.646Z",
-                "updated_at": "2022-12-16T10:18:31.020Z",
+                "created_at": "2021-12-28T09:53:04.153Z",
+                "updated_at": "2022-12-16T10:18:32.986Z",
                 "deleted": false,
                 "modifiable": true,
                 "shifted": false,
@@ -12927,16 +12930,16 @@
                 "hold": true,
                 "doubleTap": true,
                 "tapHold": true,
-                "searchLabel": null,
+                "searchLabel": "Tabulation",
                 "tag": null,
-                "glyph": "arrow_right",
-                "jsCode": "ArrowRight",
+                "glyph": null,
+                "jsCode": "Tab",
                 "url": null,
                 "os": null,
                 "geometry": null,
                 "params": null,
                 "models": null,
-                "priority": 3,
+                "priority": null,
                 "macro": true,
                 "shape": null,
                 "comboPickable": true,
