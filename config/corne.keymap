@@ -144,8 +144,8 @@ PC_Nav_layer {
 Mac_Nav_layer {
             label = "Mac_Nav";
             bindings = <
-              &none            &none            &none            &kp UP           &none            &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &kp LEFT         &kp DOWN         &kp RIGHT        &none            &none            &kp LGUI         &kp LALT         &kp LSHIFT       &none            &none 
+              &none            &none            &kp HOME         &kp UP           &kp END          &none            &none            &none            &none            &none            &none            &none 
+              &none            &kp LS(LA(LEFT)) &kp LEFT         &kp DOWN         &kp RIGHT        &kp LS(LA(RIGHT)) &none            &kp LGUI         &kp LALT         &kp LSHIFT       &none            &none 
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
@@ -185,7 +185,7 @@ Mac_App_layer {
             label = "Mac_App";
             bindings = <
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &kp LGUI         &kp LS(TAB)      &kp TAB          &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &kp LG(TAB)      &kp LEFT         &kp RIGHT        &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &kp LG(W)        &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
