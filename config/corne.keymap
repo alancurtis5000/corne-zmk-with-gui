@@ -185,7 +185,7 @@ Mac_App_layer {
             label = "Mac_App";
             bindings = <
               &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &kp LG(TAB)      &kp LEFT         &kp RIGHT        &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &hm LG(TAB) undefined &kp LEFT         &kp RIGHT        &none            &none            &none            &none            &none            &none            &none 
               &none            &none            &none            &kp LG(W)        &none            &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
