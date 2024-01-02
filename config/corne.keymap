@@ -185,8 +185,8 @@ Mac_App_layer {
             label = "Mac_App";
             bindings = <
               &none            &none            &none            &kp TILDE        &kp GRAVE        &kp W            &none            &none            &none            &none            &none            &none 
-              &none            &none            &kp LGUI         &kp LS(TAB)      &kp TAB          &kp SPACE        &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp Q            &none            &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &kp LGUI         &kp LS(TAB)      &kp TAB          &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp Q            &kp SPACE        &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
           };
