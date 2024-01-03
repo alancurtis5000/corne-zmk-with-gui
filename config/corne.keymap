@@ -195,8 +195,8 @@ PC_Tabs_layer {
             label = "PC_Tabs";
             bindings = <
               &none            &none            &none            &kp LC(LS(PAGE_UP)) &kp LC(LS(PAGE_DOWN)) &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN) &kp LC(T)        &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LC(W)        &kp LS(LC(T))    &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN) &kp LS(LC(T))    &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LC(W)        &kp LC(T)        &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
           };
@@ -205,8 +205,8 @@ Mac_Tabs_layer {
             label = "Mac_Tabs";
             bindings = <
               &none            &none            &none            &kp LS(LC(PAGE_UP)) &kp LS(LC(PAGE_DOWN)) &none            &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LA(LG(LEFT)) &kp LA(LG(RIGHT)) &kp LG(T)        &none            &none            &none            &none            &none            &none 
-              &none            &none            &none            &kp LG(W)        &kp LS(LG(T))    &none            &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LA(LG(LEFT)) &kp LA(LG(RIGHT)) &kp LS(LG(T))    &none            &none            &none            &none            &none            &none 
+              &none            &none            &none            &kp LG(W)        &kp LG(T)        &none            &none            &none            &none            &none            &none            &none 
                                                 &none            &none            &none            &none            &none            &none           
             >;
           };
