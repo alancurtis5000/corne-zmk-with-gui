@@ -47,7 +47,7 @@
               &none            &lt PC_VDesk Q   &hm LSHIFT W     &hm LALT E       &hm LCTRL R      &kp T            &kp Y            &hm RCTRL U      &hm RALT I       &hm RSHIFT O     &kp P            &none 
               &none            &lt PC_App A     &lt PC_Tabs S    &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo PC_Nav       &none 
               &none            &lt Pc_util Z    &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
-                                                &kp LC(C)        &kp SPACE        &kp ENTER        &none            &kp LSHIFT       &hm LG(L) ESC   
+                                                &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &hm LG(L) ESC   
             >;
           };
             
@@ -57,7 +57,7 @@ Mac_layer {
               &none            &lt Mac_VDesk Q  &hm LSHIFT W     &hm LALT E       &hm LGUI R       &kp T            &kp Y            &hm RGUI U       &hm RALT I       &hm RSHIFT O     &kp P            &none 
               &none            &lt Mac_App A    &lt Mac_Tabs S   &lt Numbers D    &lt Sym_Right F  &kp G            &kp H            &lt Sym_Left J   &kp K            &kp L            &mo Mac_Nav      &none 
               &none            &lt Mac_util Z   &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &none            &none            &mo Com_Switch   &none 
-                                                &kp LC(C)        &kp SPACE        &kp ENTER        &none            &kp LSHIFT       &hm LC(LG(Q)) ESC
+                                                &kp LC(C)        &kp SPACE        &kp LSHIFT       &none            &kp ENTER        &hm LC(LG(Q)) ESC
             >;
           };
             
